@@ -19,8 +19,8 @@ export const crawlPhotoPool = [
  */
 export const pageImageSrcById: Record<PageId, string> = {
 	home: '/images/tarkov-cheats-hero-1024w.webp',
-	'tarkov-esp': tarkovImages.playerEsp,
-	'tarkov-aimbot': tarkovImages.aimbotCombat,
+	'warzone-esp': tarkovImages.playerEsp,
+	'warzone-aimbot': tarkovImages.aimbotCombat,
 	features: tarkovImages.aimbotSkeleton,
 	pricing: tarkovImages.cheatsCombat,
 	setup: tarkovImages.playerEsp,
@@ -30,7 +30,7 @@ export const pageImageSrcById: Record<PageId, string> = {
 	undetected: tarkovImages.espWallhack,
 	wallhack: tarkovImages.espWallhack,
 	radar: tarkovImages.playerEsp,
-	battleye: tarkovImages.aimbotCombat,
+	ricochet: tarkovImages.aimbotCombat,
 	'cheats-2026': '/images/tarkov-cheats-hero-1024w.webp',
 	hacks: tarkovImages.cheatsCombat,
 	'cheat-download': tarkovImages.cheatsCombat,

@@ -46,7 +46,7 @@ const extraGraph: Record<string, unknown>[] = [
 		description: productInfo.summary,
 		image: heroImage,
 		brand: { '@type': 'Brand', name: productInfo.brand },
-		url: new URL('/tarkov-cheats/', siteConfig.url).href,
+		url: new URL('/warzone-cheats/', siteConfig.url).href,
 		aggregateRating,
 		offers: {
 			'@type': 'AggregateOffer',
@@ -92,7 +92,7 @@ const extraGraph: Record<string, unknown>[] = [
 	ogImageAlt={
 		home.imageAlt?.trim() && home.imageAlt.trim().length > 12
 			? home.imageAlt
-			: `${siteConfig.name} — Escape from Tarkov ESP and aimbot`
+			: `${siteConfig.name} — Warzone ESP and aimbot`
 	}
 	locale={locale}
 	pageId="home"

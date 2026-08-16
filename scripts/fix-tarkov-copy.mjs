@@ -19,9 +19,9 @@ const reps = [
 	['Epic outages', 'Activision outages'],
 	['Epic outage', 'Activision outage'],
 	["Epic's", "Activision's"],
-	['Escape from Tarkov', 'Tarkov'],
-	['KW.eac', 'KW.battleye'],
-	['Easy Anti-Cheat (EAC)', 'BattlEye anti-cheat'],
+	['Warzone', 'Warzone'],
+	['KW.eac', 'KW.ricochet'],
+	['Easy Anti-Cheat (EAC)', 'Ricochet'],
 ];
 
 for (const file of files) {

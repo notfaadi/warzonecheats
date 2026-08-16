@@ -1,6 +1,6 @@
 import { siteConfig } from './site';
 
-/** Screenshots used across product pages — simple tarkov cheats keyword alts. */
+/** Screenshots used across product pages — simple warzone cheats keyword alts. */
 export const tarkovImages = {
 	hero: '/images/tarkov-cheats-hero-full.png',
 	espWallhack: '/images/tarkov-cheats-wallhack.webp',
@@ -16,26 +16,26 @@ export const tarkovImages = {
 	cheatsPackage: '/images/tarkov-cheats-radar.webp',
 	headerArt: '/images/tarkov-cheats-aimbot-view.webp',
 	battleRoyaleCombat: '/images/tarkov-cheats-raid.webp',
-	extractFight: '/images/tarkov-cheats-aimbot.webp',
+	gulagFight: '/images/tarkov-cheats-aimbot.webp',
 	rebootFight: '/images/tarkov-cheats-aimbot.webp',
 	scavRunCombat: '/images/tarkov-cheats-wallhack.webp',
 	scavRunMode: '/images/tarkov-cheats-esp.webp',
 	battleRoyaleIsland: '/images/tarkov-cheats-esp.webp',
 	raidMap: '/images/tarkov-cheats-esp.webp',
 	product: [
-		{ src: '/images/tarkov-cheats-esp.webp', alt: 'ESP player boxes in an Escape from Tarkov raid' },
-		{ src: '/images/tarkov-cheats-wallhack.webp', alt: 'Wallhack outlines for PMCs and Scavs' },
-		{ src: '/images/tarkov-cheats-aimbot.webp', alt: 'Soft aim assist overlay for Tarkov' },
-		{ src: '/images/tarkov-cheats-esp.webp', alt: 'Loot and extract ESP markers' },
-		{ src: '/images/tarkov-cheats-wallhack.webp', alt: 'Through-wall visibility during a raid' },
+		{ src: '/images/tarkov-cheats-esp.webp', alt: 'ESP player boxes in a Warzone match' },
+		{ src: '/images/tarkov-cheats-wallhack.webp', alt: 'Wallhack outlines for Warzone players' },
+		{ src: '/images/tarkov-cheats-aimbot.webp', alt: 'Soft aim assist overlay for Warzone' },
+		{ src: '/images/tarkov-cheats-esp.webp', alt: 'Loot and contract ESP markers' },
+		{ src: '/images/tarkov-cheats-wallhack.webp', alt: 'Through-wall visibility during a match' },
 		{ src: '/images/tarkov-cheats-aimbot.webp', alt: 'Aimbot bone priority settings' },
 	],
 	gallery: [
 		{ src: '/images/tarkov-cheats-esp.webp', alt: 'ESP overlay showing enemy distance', featured: true },
-		{ src: '/images/tarkov-cheats-wallhack.webp', alt: 'Wallhack view through terrain' },
+		{ src: '/images/tarkov-cheats-wallhack.webp', alt: 'Wallhack view through cover' },
 		{ src: '/images/tarkov-cheats-aimbot.webp', alt: 'Soft aim FOV ring in combat' },
-		{ src: '/images/tarkov-cheats-esp.webp', alt: 'Container and loot ESP pins' },
-		{ src: '/images/tarkov-cheats-wallhack.webp', alt: 'Boss and player wallhack filters' },
+		{ src: '/images/tarkov-cheats-esp.webp', alt: 'Loadout and loot ESP pins' },
+		{ src: '/images/tarkov-cheats-wallhack.webp', alt: 'Squad and player wallhack filters' },
 	],
 	/**
 	 * @deprecated Prefer brand.sitemap.images via brand-sitemap / page-sitemap.

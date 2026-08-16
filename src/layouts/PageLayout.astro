@@ -64,7 +64,7 @@ const t = getT(locale);
 const resolvedHeroAlt =
 	(heroAlt && heroAlt.trim()) ||
 	t('images.hero') ||
-	`${siteConfig.name} — Escape from Tarkov ESP and aimbot`;
+	`${siteConfig.name} — Warzone ESP and aimbot`;
 const resolvedGalleryTitle = galleryTitle ?? t('common.inGameLook');
 
 function resolvePageId(path: string): PageId | undefined {
@@ -94,7 +94,7 @@ const breadcrumbs = [
 const useHomeHero =
 	heroImage === tarkovImages.hero ||
 	heroImage === siteConfig.defaultOgImage ||
-	heroImage.includes('tarkov-cheats-hero');
+	heroImage.includes('warzone-cheats-hero');
 ---
 
 <Layout

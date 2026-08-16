@@ -76,82 +76,82 @@ const SITEMAP_INDEX_ENTRIES = 1 + I18N_LOCALES + 1; // EN + locales + images
 
 /** Built HTML that intentionally 301s — allowed to be absent from sitemaps */
 const REDIRECT_ONLY_PATHS = new Set([
-	'/best-tarkov-cheats/',
-	'/tarkov-aimbot-hack/',
-	'/tarkov-esp-hack/',
-	'/tarkov-cheats-2026/',
-	'/undetected-tarkov-cheats/',
-	'/tarkov-mod-menu/',
-	'/tarkov-unlock-all/',
-	'/tarkov-soft-aim/',
-	'/tarkov-wallhack/',
-	'/tarkov-cheat-download/',
-	'/battleye-bypass/',
+	'/best-warzone-cheats/',
+	'/warzone-aimbot-hack/',
+	'/warzone-esp-hack/',
+	'/warzone-cheats-2026/',
+	'/undetected-warzone-cheats/',
+	'/warzone-mod-menu/',
+	'/warzone-unlock-all/',
+	'/warzone-soft-aim/',
+	'/warzone-wallhack/',
+	'/warzone-cheat-download/',
+	'/ricochet-bypass/',
 ]);
 
 const ENGLISH_PATHS = [
 	'/',
-	'/tarkov-esp/',
-	'/tarkov-aimbot/',
+	'/warzone-esp/',
+	'/warzone-aimbot/',
 	'/features/',
 	'/pricing/',
 	'/setup/',
 	'/updates/',
 	'/faq/',
 	'/support/',
-	'/undetected-tarkov-cheats/',
-	'/tarkov-wallhack/',
-	'/tarkov-radar-hack/',
-	'/battleye-bypass/',
-	'/tarkov-cheats-2026/',
-	'/tarkov-cheats/',
-	'/tarkov-cheat-download/',
-	'/tarkov-mod-menu/',
-	'/tarkov-soft-aim/',
-	'/tarkov-unlock-all/',
+	'/undetected-warzone-cheats/',
+	'/warzone-wallhack/',
+	'/warzone-radar-hack/',
+	'/ricochet-bypass/',
+	'/warzone-cheats-2026/',
+	'/warzone-cheats/',
+	'/warzone-cheat-download/',
+	'/warzone-mod-menu/',
+	'/warzone-soft-aim/',
+	'/warzone-unlock-all/',
 	'/privacy-policy/',
 	'/refund-policy/',
 	'/terms/',
 	'/blog/',
-	'/blog/tarkov-scav-run-aggressive-strategies/',
-	'/blog/tarkov-loot-routes-guide/',
-	'/blog/tarkov-weapon-tier-list/',
-	'/blog/tarkov-skin-leaks-guide/',
-	'/blog/tarkov-tournament-meta-guide/',
-	'/blog/tarkov-pro-settings-guide/',
-	'/blog/tarkov-warmup-maps-ranked/',
-	'/blog/tarkov-patch-notes-guide/',
-	'/blog/tarkov-cheats-complete-guide-2026/',
-	'/blog/escape-from-tarkov-cheats-buyers-guide/',
-	'/blog/tarkov-cheats-2026-whats-new/',
-	'/blog/tarkov-aimbot-settings-guide/',
-	'/blog/tarkov-esp-wallhack-explained/',
-	'/blog/undetected-tarkov-cheats-battleye/',
-	'/blog/tarkov-cheats-vs-cheatvault-comparison/',
-	'/blog/elitefn-vs-tarkov-cheats-two-week-test/',
-	'/blog/tarkov-cheats-vs-ghostware-features-pricing/',
+	'/blog/warzone-Resurgence-aggressive-strategies/',
+	'/blog/warzone-loot-routes-guide/',
+	'/blog/warzone-weapon-tier-list/',
+	'/blog/warzone-skin-leaks-guide/',
+	'/blog/warzone-tournament-meta-guide/',
+	'/blog/warzone-pro-settings-guide/',
+	'/blog/warzone-warmup-maps-ranked/',
+	'/blog/warzone-patch-notes-guide/',
+	'/blog/warzone-cheats-complete-guide-2026/',
+	'/blog/warzone-cheats-buyers-guide/',
+	'/blog/warzone-cheats-2026-whats-new/',
+	'/blog/warzone-aimbot-settings-guide/',
+	'/blog/warzone-esp-wallhack-explained/',
+	'/blog/undetected-warzone-cheats-ricochet/',
+	'/blog/warzone-cheats-vs-cheatvault-comparison/',
+	'/blog/elitefn-vs-warzone-cheats-two-week-test/',
+	'/blog/warzone-cheats-vs-ghostware-features-pricing/',
 	'/reviews/',
-	'/reviews/tarkov-soft-aim-review-xkrypt0/',
-	'/reviews/tarkov-esp-scav-run-review-buildsr4k/',
-	'/reviews/tarkov-cloud-dma-review-dma-wizard/',
-	'/reviews/tarkov-soft-aim-review-ctrl-player99/',
-	'/reviews/tarkov-cheat-setup-review-stormchaser07/',
-	'/reviews/tarkov-loot-esp-review-lootgoblinx/',
-	'/reviews/tarkov-soft-aim-raid-review-rankedgrind42/',
-	'/reviews/tarkov-radar-hack-review-vanlifeeft/',
-	'/reviews/tarkov-battleye-update-review-patchdaymike/',
-	'/reviews/tarkov-sniper-soft-aim-review-snipezonly/',
-	'/faq/what-are-tarkov-cheats/',
-	'/faq/are-tarkov-cheats-undetected-in-2026/',
-	'/faq/pmc-raids-and-scav-runs/',
+	'/reviews/warzone-soft-aim-review-xkrypt0/',
+	'/reviews/warzone-esp-Resurgence-review-buildsr4k/',
+	'/reviews/warzone-cloud-dma-review-dma-wizard/',
+	'/reviews/warzone-soft-aim-review-ctrl-player99/',
+	'/reviews/warzone-cheat-setup-review-stormchaser07/',
+	'/reviews/warzone-loot-esp-review-lootgoblinx/',
+	'/reviews/warzone-soft-aim-raid-review-rankedgrind42/',
+	'/reviews/warzone-radar-hack-review-vanlifeeft/',
+	'/reviews/warzone-ricochet-update-review-patchdaymike/',
+	'/reviews/warzone-sniper-soft-aim-review-snipezonly/',
+	'/faq/what-are-warzone-cheats/',
+	'/faq/are-warzone-cheats-undetected-in-2026/',
+	'/faq/br-matches-and-resurgence/',
 	'/faq/esp-wallhack-radar-or-aimbot/',
 	'/faq/how-are-licenses-delivered/',
 	'/faq/where-to-check-updates/',
 	'/faq/how-to-contact-support/',
-	'/faq/what-is-a-tarkov-wallhack/',
-	'/faq/does-tarkov-cheats-include-radar-hack/',
-	'/faq/battleye-anti-cheat-and-tarkov-cheats/',
-	'/faq/buy-undetected-tarkov-cheats-windows-pc/',
+	'/faq/what-is-a-warzone-wallhack/',
+	'/faq/does-warzone-cheats-include-radar-hack/',
+	'/faq/ricochet-anti-cheat-and-warzone-cheats/',
+	'/faq/buy-undetected-warzone-cheats-windows-pc/',
 ];
 
 const LOCALE_CODES = [
@@ -161,11 +161,11 @@ const LOCALE_CODES = [
 
 const I18N_LOCALE_CODES = LOCALE_CODES.filter((code) => code !== 'en');
 
-function extractLocs(xml) {
+function gulagLocs(xml) {
 	return [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
 }
 
-function extractHreflangCount(xml, url) {
+function gulagHreflangCount(xml, url) {
 	const block = xml.split('<loc>').find((part) => part.startsWith(url.replace(/&/g, '&amp;')));
 	if (!block) return 0;
 	return (block.match(/hreflang="/g) ?? []).length;
@@ -214,10 +214,10 @@ async function main() {
 	const robots = await readFile(path.join(ROOT, 'public', 'robots.txt'), 'utf8');
 	const redirects = await readFile(path.join(ROOT, 'public', '_redirects'), 'utf8');
 
-	const indexLocs = extractLocs(sitemapIndex);
-	const enLocs = extractLocs(sitemapEn);
-	const i18nLocs = extractLocs(sitemapI18n);
-	const imageLocs = extractLocs(sitemapImages);
+	const indexLocs = gulagLocs(sitemapIndex);
+	const enLocs = gulagLocs(sitemapEn);
+	const i18nLocs = gulagLocs(sitemapI18n);
+	const imageLocs = gulagLocs(sitemapImages);
 
 	// sitemap.xml must be a sitemap index (not a urlset)
 	if (!sitemapIndex.includes('<sitemapindex')) {
@@ -245,7 +245,7 @@ async function main() {
 	for (const locale of I18N_LOCALE_CODES) {
 		const file = path.join(DIST, `sitemap-${locale}.xml`);
 		const xml = await readFile(file, 'utf8');
-		const locs = extractLocs(xml);
+		const locs = gulagLocs(xml);
 		localeSitemapLocs[locale] = locs;
 		localeUrlTotal += locs.length;
 
@@ -390,7 +390,7 @@ async function main() {
 	if (errors === 0) ok('All sitemap URLs use HTTPS apex with trailing slashes');
 
 	// hreflang on homepage
-	const homeHreflang = extractHreflangCount(sitemapEn, `${SITE}/`);
+	const homeHreflang = gulagHreflangCount(sitemapEn, `${SITE}/`);
 	if (homeHreflang !== HREFLANG_PER_URL) {
 		fail(`Homepage hreflang links: expected ${HREFLANG_PER_URL}, got ${homeHreflang}`);
 		bump();

@@ -1,5 +1,5 @@
 {
-	"name": "tarkov-cheats",
+	"name": "warzone-cheats",
 	"type": "module",
 	"version": "1.0.0",
 	"engines": {
@@ -22,7 +22,7 @@
 		"validate:sitemaps": "node scripts/validate-sitemaps.mjs && node scripts/audit-sitemap-deep.mjs",
 		"generate:i18n": "node scripts/generate-i18n-content.mjs",
 		"deploy": "npm run build && wrangler deploy",
-		"pages:deploy": "wrangler pages deploy dist --project-name=tarkovcheats",
+		"pages:deploy": "wrangler pages deploy dist --project-name=warzonecheats",
 		"astro": "astro"
 	},
 	"dependencies": {

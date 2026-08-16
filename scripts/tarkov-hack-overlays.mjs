@@ -1,6 +1,6 @@
 /**
- * SVG overlay generators for Tarkov cheats marketing images.
- * Composited on top of IGN Tarkov gameplay screenshots.
+ * SVG overlay generators for Warzone cheats marketing images.
+ * Composited on top of IGN Warzone gameplay screenshots.
  */
 
 const PURPLE = '#c084fc';
@@ -150,11 +150,11 @@ export function buildOverlaySvg(width, height, preset) {
 			body += espBox(width * 0.2, height * 0.32, width * 0.09, height * 0.24, 'Enemy · 67m', RED, snap);
 			body += modMenuOverlay(width, height);
 			break;
-		case 'extract':
+		case 'gulag':
 			body += espBox(width * 0.42, height * 0.28, width * 0.14, height * 0.38, 'Gulag · 12m', RED, snap);
 			body += aimbotOverlay(width, height);
 			break;
-		case 'scav-run':
+		case 'Resurgence':
 			body += espBox(width * 0.25, height * 0.3, width * 0.1, height * 0.26, 'Squad · 44m', RED, snap);
 			body += espBox(width * 0.58, height * 0.35, width * 0.09, height * 0.22, 'Squad · 71m', RED, snap);
 			body += radarOverlay(width, height);
@@ -162,7 +162,7 @@ export function buildOverlaySvg(width, height, preset) {
 		case 'loot':
 			body += espBox(width * 0.3, height * 0.45, width * 0.07, height * 0.09, 'Loadout · 28m', GREEN);
 			body += espBox(width * 0.55, height * 0.38, width * 0.06, height * 0.08, 'Contract · 55m', GREEN);
-			body += espBox(width * 0.68, height * 0.52, width * 0.06, height * 0.08, 'extract timer · 103m', '#fbbf24');
+			body += espBox(width * 0.68, height * 0.52, width * 0.06, height * 0.08, 'gulag timer · 103m', '#fbbf24');
 			body += espBox(width * 0.44, height * 0.22, width * 0.09, height * 0.24, 'Operator · 88m', RED, snap);
 			break;
 		case 'map':

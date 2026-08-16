@@ -2,7 +2,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 
 const SIMPLE =
-	"images: { hero: 'tarkov cheats', espWallhack: 'tarkov cheats wallhack', aimbotCombat: 'tarkov cheats aimbot', squadFight: 'tarkov cheats', playerEsp: 'tarkov cheats esp', headerArt: 'tarkov cheats aimbot', cheatsPackage: 'tarkov cheats radar', rebootFight: 'tarkov cheats aimbot', battleRoyale: 'tarkov cheats', battleRoyaleIsland: 'tarkov cheats esp' }";
+	"images: { hero: 'warzone cheats', espWallhack: 'warzone cheats wallhack', aimbotCombat: 'warzone cheats aimbot', squadFight: 'warzone cheats', playerEsp: 'warzone cheats esp', headerArt: 'warzone cheats aimbot', cheatsPackage: 'warzone cheats radar', rebootFight: 'warzone cheats aimbot', battleRoyale: 'warzone cheats', battleRoyaleIsland: 'warzone cheats esp' }";
 
 const re =
 	/images: \{ hero: '[^']+', espWallhack: '[^']+', aimbotCombat: '[^']+', squadFight: '[^']+', playerEsp: '[^']+', headerArt: '[^']+', cheatsPackage: '[^']+', rebootFight: '[^']+', battleRoyale: '[^']+', battleRoyaleIsland: '[^']+' \}/g;
@@ -15,30 +15,30 @@ for (const f of ['scripts/i18n-data/ui-strings-part1.mjs', 'scripts/i18n-data/ui
 }
 
 const altMap = [
-	["imageAlt: 'Tarkov ESP player tags hack'", "imageAlt: 'tarkov cheats esp'"],
-	["imageAlt: 'Tarkov ESP radar hack'", "imageAlt: 'tarkov cheats radar'"],
-	["imageAlt: 'Tarkov aimbot sniper kill'", "imageAlt: 'tarkov cheats aimbot'"],
-	["imageAlt: 'Tarkov aimbot skeleton targeting'", "imageAlt: 'tarkov cheats aimbot'"],
-	["imageAlt: 'Tarkov cheats ADS combat'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Tarkov cheats setup PC activation'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Tarkov cheats updates BattlEye maintenance'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Tarkov cheats FAQ ESP aimbot'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Tarkov cheats support license help'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Undetected tarkov cheats ESP wallhack'", "imageAlt: 'undetected tarkov cheats'"],
-	["imageAlt: 'Tarkov wallhack skeleton ESP'", "imageAlt: 'tarkov cheats wallhack'"],
-	["imageAlt: 'BattlEye bypass tarkov ESP aimbot'", "imageAlt: 'tarkov cheats battleye'"],
-	["imageAlt: 'Tarkov cheats 2026 ESP aimbot'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Tarkov cheats combat aimbot'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Tarkov cheat download ESP aimbot'", "imageAlt: 'tarkov cheats download'"],
-	["imageAlt: 'Tarkov mod menu ESP aimbot'", "imageAlt: 'tarkov cheats mod menu'"],
-	["imageAlt: 'Tarkov soft aim aimbot settings'", "imageAlt: 'tarkov cheats soft aim'"],
-	["imageAlt: 'Best tarkov cheats 2026 ESP'", "imageAlt: 'best tarkov cheats'"],
-	["imageAlt: 'Tarkov aimbot hack combat'", "imageAlt: 'tarkov cheats aimbot'"],
-	["imageAlt: 'Tarkov ESP hack wallhack'", "imageAlt: 'tarkov cheats esp'"],
-	["imageAlt: 'Tarkov unlock all ESP aimbot guide'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Tarkov cheats privacy policy'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Tarkov cheats refund policy'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Tarkov cheats terms of use'", "imageAlt: 'tarkov cheats'"],
+	["imageAlt: 'Warzone ESP player tags hack'", "imageAlt: 'warzone cheats esp'"],
+	["imageAlt: 'Warzone ESP radar hack'", "imageAlt: 'warzone cheats radar'"],
+	["imageAlt: 'Warzone aimbot sniper kill'", "imageAlt: 'warzone cheats aimbot'"],
+	["imageAlt: 'Warzone aimbot skeleton targeting'", "imageAlt: 'warzone cheats aimbot'"],
+	["imageAlt: 'Warzone cheats ADS combat'", "imageAlt: 'warzone cheats'"],
+	["imageAlt: 'Warzone cheats setup PC activation'", "imageAlt: 'warzone cheats'"],
+	["imageAlt: 'Warzone cheats updates Ricochet maintenance'", "imageAlt: 'warzone cheats'"],
+	["imageAlt: 'Warzone cheats FAQ ESP aimbot'", "imageAlt: 'warzone cheats'"],
+	["imageAlt: 'Warzone cheats support license help'", "imageAlt: 'warzone cheats'"],
+	["imageAlt: 'Undetected warzone cheats ESP wallhack'", "imageAlt: 'undetected warzone cheats'"],
+	["imageAlt: 'Warzone wallhack skeleton ESP'", "imageAlt: 'warzone cheats wallhack'"],
+	["imageAlt: 'Ricochet bypass warzone ESP aimbot'", "imageAlt: 'warzone cheats ricochet'"],
+	["imageAlt: 'Warzone cheats 2026 ESP aimbot'", "imageAlt: 'warzone cheats'"],
+	["imageAlt: 'Warzone cheats combat aimbot'", "imageAlt: 'warzone cheats'"],
+	["imageAlt: 'Warzone cheat download ESP aimbot'", "imageAlt: 'warzone cheats download'"],
+	["imageAlt: 'Warzone mod menu ESP aimbot'", "imageAlt: 'warzone cheats mod menu'"],
+	["imageAlt: 'Warzone soft aim aimbot settings'", "imageAlt: 'warzone cheats soft aim'"],
+	["imageAlt: 'Best warzone cheats 2026 ESP'", "imageAlt: 'best warzone cheats'"],
+	["imageAlt: 'Warzone aimbot hack combat'", "imageAlt: 'warzone cheats aimbot'"],
+	["imageAlt: 'Warzone ESP hack wallhack'", "imageAlt: 'warzone cheats esp'"],
+	["imageAlt: 'Warzone unlock all ESP aimbot guide'", "imageAlt: 'warzone cheats'"],
+	["imageAlt: 'Warzone cheats privacy policy'", "imageAlt: 'warzone cheats'"],
+	["imageAlt: 'Warzone cheats refund policy'", "imageAlt: 'warzone cheats'"],
+	["imageAlt: 'Warzone cheats terms of use'", "imageAlt: 'warzone cheats'"],
 ];
 
 let pages = readFileSync('scripts/i18n-data/pages-en.mjs', 'utf8');
@@ -49,13 +49,13 @@ console.log('pages-en imageAlts simplified');
 // productPage() imageAlt template in pages-i18n
 let i18n = readFileSync('scripts/i18n-data/pages-i18n.mjs', 'utf8');
 i18n = i18n
-	.split("imageAlt: `Tarkov ${meta.altKeyword}`")
-	.join("imageAlt: 'tarkov cheats'")
-	.split("galleryTitle: `Tarkov Cheats ${topicName}`")
-	.join("galleryTitle: 'tarkov cheats'")
-	.split("imageAlt: `Tarkov cheats ${kind} policy`")
-	.join("imageAlt: 'tarkov cheats'")
-	.split("galleryTitle: `Tarkov Cheats ${kind} resources`")
-	.join("galleryTitle: 'tarkov cheats'");
+	.split("imageAlt: `Warzone ${meta.altKeyword}`")
+	.join("imageAlt: 'warzone cheats'")
+	.split("galleryTitle: `Warzone Cheats ${topicName}`")
+	.join("galleryTitle: 'warzone cheats'")
+	.split("imageAlt: `Warzone cheats ${kind} policy`")
+	.join("imageAlt: 'warzone cheats'")
+	.split("galleryTitle: `Warzone Cheats ${kind} resources`")
+	.join("galleryTitle: 'warzone cheats'");
 writeFileSync('scripts/i18n-data/pages-i18n.mjs', i18n);
 console.log('pages-i18n image alts simplified');

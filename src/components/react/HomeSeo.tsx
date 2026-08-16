@@ -17,9 +17,9 @@ function HomeSeoInner({ faqs }: Props) {
 			hintKey: 'homeSeo.catFeaturesHint',
 			links: [
 				{ href: '/features/', labelKey: 'homeSeo.linkAllFeatures' },
-				{ href: '/tarkov-esp/', labelKey: 'homeSeo.linkEsp' },
-				{ href: '/tarkov-aimbot/', labelKey: 'homeSeo.linkAimbot' },
-				{ href: '/tarkov-radar-hack/', labelKey: 'homeSeo.linkRadar' },
+				{ href: '/warzone-esp/', labelKey: 'homeSeo.linkEsp' },
+				{ href: '/warzone-aimbot/', labelKey: 'homeSeo.linkAimbot' },
+				{ href: '/warzone-radar-hack/', labelKey: 'homeSeo.linkRadar' },
 			],
 		},
 		{
@@ -27,7 +27,7 @@ function HomeSeoInner({ faqs }: Props) {
 			hintKey: 'homeSeo.catStatusHint',
 			links: [
 				{ href: '/updates/', labelKey: 'homeSeo.linkLiveStatus' },
-				{ href: '/tarkov-cheats/', labelKey: 'homeSeo.linkUndetected' },
+				{ href: '/warzone-cheats/', labelKey: 'homeSeo.linkUndetected' },
 				{ href: '/setup/', labelKey: 'homeSeo.linkSetup' },
 				{ href: '/faq/', labelKey: 'homeSeo.linkFaq' },
 			],
@@ -38,7 +38,7 @@ function HomeSeoInner({ faqs }: Props) {
 			links: [
 				{ href: '/pricing/', labelKey: 'homeSeo.linkPlans' },
 				{ href: '/reviews/', labelKey: 'homeSeo.linkReviews' },
-				{ href: '/tarkov-cheats/', labelKey: 'homeSeo.linkTarkovCheats' },
+				{ href: '/warzone-cheats/', labelKey: 'homeSeo.linkWarzoneCheats' },
 				{ href: '/features/', labelKey: 'homeSeo.linkAllFeatures' },
 			],
 		},

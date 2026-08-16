@@ -27,7 +27,7 @@ function readCannibalTargets() {
 	return targets;
 }
 
-function extractSlugBlock(src, pageId) {
+function gulagSlugBlock(src, pageId) {
 	const re = new RegExp(`\\t'${pageId}':\\s*\\{([\\s\\S]*?)\\n\\t\\},|\\t${pageId}:\\s*\\{([\\s\\S]*?)\\n\\t\\},`);
 	const m = src.match(re);
 	const block = m?.[1] ?? m?.[2];
@@ -49,8 +49,8 @@ const lines = [
 ];
 
 for (const [fromId, toId] of Object.entries(TARGETS)) {
-	const fromSlugs = extractSlugBlock(routing, fromId);
-	const toSlugs = extractSlugBlock(routing, toId);
+	const fromSlugs = gulagSlugBlock(routing, fromId);
+	const toSlugs = gulagSlugBlock(routing, toId);
 	for (const [locale, fromSlug] of Object.entries(fromSlugs)) {
 		if (locale === 'en') continue;
 		const toSlug = toSlugs[locale];

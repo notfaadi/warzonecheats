@@ -6,7 +6,7 @@ const root = path.resolve('.');
 const publicDir = path.join(root, 'public');
 const imagesDir = path.join(publicDir, 'images');
 const sourcePath =
-	'C:/Users/Aman/.cursor/projects/c-Users-Aman-tarkovhacks/assets/c__Users_Aman_AppData_Roaming_Cursor_User_workspaceStorage_5fc01ad59007d6b1ec3564ba48b04eb7_images_image-4be7ee07-5934-4878-8eb6-1fb2f3143ab4.png';
+	'C:/Users/Aman/.cursor/projects/c-Users-Aman-warzonehacks/assets/c__Users_Aman_AppData_Roaming_Cursor_User_workspaceStorage_5fc01ad59007d6b1ec3564ba48b04eb7_images_image-4be7ee07-5934-4878-8eb6-1fb2f3143ab4.png';
 
 const BG = { r: 10, g: 6, b: 18, alpha: 1 }; // #0a0612 — matches theme-color
 
@@ -19,11 +19,11 @@ async function squareLogoBuffer(size) {
 
 async function generateSiteLogo() {
 	const logoPng = await squareLogoBuffer(512);
-	await writeFile(path.join(imagesDir, 'tarkov-cheats-logo.png'), logoPng);
+	await writeFile(path.join(imagesDir, 'warzone-cheats-logo.png'), logoPng);
 	console.log('Wrote public/images/tarkov-cheats-logo.png (512×512)');
 
 	const logoWebp = await sharp(logoPng).webp({ quality: 90, effort: 6 }).toBuffer();
-	await writeFile(path.join(imagesDir, 'tarkov-cheats-logo.webp'), logoWebp);
+	await writeFile(path.join(imagesDir, 'warzone-cheats-logo.webp'), logoWebp);
 	console.log('Wrote public/images/tarkov-cheats-logo.webp');
 }
 
@@ -57,9 +57,9 @@ async function generateFavicons(logoBuffer) {
 
 async function generateWebManifest() {
 	const manifest = {
-		name: 'Tarkov Cheats',
-		short_name: 'Tarkov Cheats',
-		description: 'Undetected tarkov cheats — ESP, aimbot, radar and for PC',
+		name: 'Warzone Cheats',
+		short_name: 'Warzone Cheats',
+		description: 'Undetected warzone cheats — ESP, aimbot, radar and for PC',
 		start_url: '/',
 		display: 'standalone',
 		background_color: '#0a0612',

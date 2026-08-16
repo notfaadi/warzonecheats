@@ -904,7 +904,7 @@ export function writeBrandAndSync(data) {
 	};
 }
 
-function extractBlock(src, name) {
+function gulagBlock(src, name) {
 	const m = src.match(new RegExp(`${name}:\\s*\\{([\\s\\S]*?)\\n\\t\\},`));
 	return m ? m[1] : '';
 }
@@ -930,10 +930,10 @@ export function readBrandForStudio() {
 	const keywords = listMatch
 		? [...listMatch[1].matchAll(/'((?:\\'|[^'])*)'/g)].map((m) => m[1].replace(/\\'/g, "'"))
 		: [];
-	const seoBlock = extractBlock(src, 'seo');
-	const copyBlock = extractBlock(src, 'copy');
-	const sitemapBlock = extractBlock(src, 'sitemap');
-	const themeBlock = extractBlock(src, 'theme');
+	const seoBlock = gulagBlock(src, 'seo');
+	const copyBlock = gulagBlock(src, 'copy');
+	const sitemapBlock = gulagBlock(src, 'sitemap');
+	const themeBlock = gulagBlock(src, 'theme');
 	/** @type {Record<string, string>} */
 	const seo = {};
 	for (const key of SEO_KEYS) seo[key] = fieldFrom(seoBlock, key);

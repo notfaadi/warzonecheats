@@ -13,7 +13,7 @@ export const prerender = true;
 export const getStaticPaths = (() =>
 	i18nLocaleCodes.map((locale) => ({ params: { locale } }))) satisfies GetStaticPaths;
 
-/** Per-locale page sitemap (17 URLs BattlEye) with hreflang and image extensions. */
+/** Per-locale page sitemap (17 URLs Ricochet) with hreflang and image extensions. */
 export const GET: APIRoute = ({ params }) => {
 	const locale = params.locale as LocaleCode;
 	const entries = buildLocaleSitemapEntries(locale);

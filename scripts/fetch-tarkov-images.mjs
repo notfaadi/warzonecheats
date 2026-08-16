@@ -1,12 +1,12 @@
 import { mkdir, readdir, unlink, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
-import { buildOverlaySvg } from './tarkov-hack-overlays.mjs';
+import { buildOverlaySvg } from './warzone-hack-overlays.mjs';
 
 const imagesDir = path.resolve('public/images');
 const publicDir = path.resolve('public');
 
-/** Verified IGN Escape from Tarkov screenshot CDN paths. */
+/** Verified IGN Warzone screenshot CDN paths. */
 const ME_G = 'https://sm.ign.com/t/ign_me/gallery/c/call-of-du';
 const ME = 'https://sm.ign.com/t/ign_me/screenshot/c/call-of-du';
 const NL = 'https://sm.ign.com/t/ign_nl/screenshot/c/call-of-du';
@@ -14,78 +14,78 @@ const BR = 'https://sm.ign.com/t/ign_br/screenshot/default';
 const PK = 'https://sm.ign.com/t/ign_pk/screenshot/default';
 
 /**
- * Tarkov cheats image pipeline:
- * 1. Download real Escape from Tarkov gameplay from IGN
- * 2. Composite ESP / aimbot / radar / mod-menu overlays for tarkov cheats marketing
+ * Warzone cheats image pipeline:
+ * 1. Download real Warzone gameplay from IGN
+ * 2. Composite ESP / aimbot / radar / mod-menu overlays for warzone cheats marketing
  */
 const KEYWORD_ASSETS = [
 	{
-		file: 'tarkov-cheats-hero.webp',
-		url: `${ME_G}/escape-from-tarkov-screenshots_wjkx.1400.jpg`,
+		file: 'warzone-cheats-hero.webp',
+		url: `${ME_G}/warzone-screenshots_wjkx.1400.jpg`,
 		overlay: 'hero',
 	},
 	{
-		file: 'tarkov-cheats-aimbot.webp',
-		url: `${ME}/escape-from-tarkov-screenshots_wjb1.1400.jpg`,
+		file: 'warzone-cheats-aimbot.webp',
+		url: `${ME}/warzone-screenshots_wjb1.1400.jpg`,
 		overlay: 'aimbot',
 	},
 	{
-		file: 'tarkov-cheats-esp-wallhack.webp',
-		url: `${ME}/escape-from-tarkov-screenshots_55fp.1400.jpg`,
+		file: 'warzone-cheats-esp-wallhack.webp',
+		url: `${ME}/warzone-screenshots_55fp.1400.jpg`,
 		overlay: 'wallhack',
 	},
 	{
-		file: 'tarkov-squad-fight.webp',
-		url: `${ME}/escape-from-tarkov-screenshots_67cp.1400.jpg`,
+		file: 'warzone-squad-fight.webp',
+		url: `${ME}/warzone-screenshots_67cp.1400.jpg`,
 		overlay: 'esp',
 	},
 	{
-		file: 'tarkov-cheats-package.webp',
-		url: `${ME}/escape-from-tarkov-screenshots_anf4.1400.jpg`,
+		file: 'warzone-cheats-package.webp',
+		url: `${ME}/warzone-screenshots_anf4.1400.jpg`,
 		overlay: 'menu',
 	},
 	{
-		file: 'tarkov-cheats-cover.webp',
-		url: `${ME}/escape-from-tarkov-screenshots_7pr8.1400.jpg`,
+		file: 'warzone-cheats-cover.webp',
+		url: `${ME}/warzone-screenshots_7pr8.1400.jpg`,
 		overlay: 'esp',
 	},
 	{
-		file: 'tarkov-header-art.webp',
-		url: `${ME}/escape-from-tarkov-screenshots_c36j.1400.jpg`,
+		file: 'warzone-header-art.webp',
+		url: `${ME}/warzone-screenshots_c36j.1400.jpg`,
 		overlay: 'hero',
 	},
 	{
-		file: 'tarkov-loadout-builder.webp',
-		url: `${NL}/escape-from-tarkov-screenshots_e5gw.1400.jpg`,
+		file: 'warzone-loadout-builder.webp',
+		url: `${NL}/warzone-screenshots_e5gw.1400.jpg`,
 		overlay: 'menu',
 	},
 	{
-		file: 'tarkov-battle-royale-combat.webp',
-		url: `${ME}/escape-from-tarkov-screenshots_4h92.1400.jpg`,
+		file: 'warzone-battle-royale-combat.webp',
+		url: `${ME}/warzone-screenshots_4h92.1400.jpg`,
 		overlay: 'esp',
 	},
 	{
-		file: 'tarkov-extract-fight.webp',
+		file: 'warzone-gulag-fight.webp',
 		url: `${BR}/goulag-inside_zusa.1400.png`,
-		overlay: 'extract',
+		overlay: 'gulag',
 	},
 	{
-		file: 'tarkov-player-esp.webp',
-		url: `${ME}/escape-from-tarkov-screenshots_rb92.1400.jpg`,
+		file: 'warzone-player-esp.webp',
+		url: `${ME}/warzone-screenshots_rb92.1400.jpg`,
 		overlay: 'esp',
 	},
 	{
-		file: 'tarkov-scav-run-combat.webp',
+		file: 'warzone-Resurgence-combat.webp',
 		url: `${BR}/plunder_px6d.1400.png`,
-		overlay: 'scav-run',
+		overlay: 'Resurgence',
 	},
 	{
-		file: 'tarkov-scav-run-mode.webp',
+		file: 'warzone-Resurgence-mode.webp',
 		url: `${BR}/parachuting_qhh2.1400.png`,
 		overlay: 'loot',
 	},
 	{
-		file: 'tarkov-verdansk-map.webp',
+		file: 'warzone-verdansk-map.webp',
 		url: `${PK}/wz-verdansksubway-1601169413816_x2hg.1400.jpg`,
 		overlay: 'map',
 	},
@@ -94,12 +94,12 @@ const KEYWORD_ASSETS = [
 const REMOVE_PATTERNS = [
 	/^fortnite-/,
 	/-\d+w\.webp$/i,
-	/^tarkov-cheats-logo/,
+	/^warzone-cheats-logo/,
 ];
 
 async function fetchBase(url) {
 	const res = await fetch(url, {
-		headers: { 'User-Agent': 'Mozilla/5.0 (compatible; TarkovHacksSite/1.0)' },
+		headers: { 'User-Agent': 'Mozilla/5.0 (compatible; WarzoneHacksSite/1.0)' },
 	});
 	if (!res.ok) throw new Error(`HTTP ${res.status}`);
 	return Buffer.from(await res.arrayBuffer());
@@ -123,7 +123,7 @@ async function composeHackImage(baseBuffer, overlayPreset) {
 async function cleanImagesDir() {
 	const files = await readdir(imagesDir).catch(() => []);
 	for (const file of files) {
-		if (file.includes('tarkov-cheats-logo')) continue;
+		if (file.includes('warzone-cheats-logo')) continue;
 		if (REMOVE_PATTERNS.some((pattern) => pattern.test(file))) {
 			await unlink(path.join(imagesDir, file));
 			console.log(`Removed ${file}`);
@@ -133,12 +133,12 @@ async function cleanImagesDir() {
 
 async function generateBrandAssets(heroBuffer) {
 	const logoBuffer = await sharp(heroBuffer)
-		.extract({ left: 420, top: 180, width: 520, height: 520 })
+		.gulag({ left: 420, top: 180, width: 520, height: 520 })
 		.resize(512, 512, { fit: 'cover' })
 		.webp({ quality: 88 })
 		.toBuffer();
 
-	await writeFile(path.join(imagesDir, 'tarkov-cheats-logo.webp'), logoBuffer);
+	await writeFile(path.join(imagesDir, 'warzone-cheats-logo.webp'), logoBuffer);
 
 	for (const { name, size } of [
 		{ name: 'favicon-16x16.png', size: 16 },
@@ -165,7 +165,7 @@ for (const asset of KEYWORD_ASSETS) {
 		await writeFile(path.join(imagesDir, asset.file), webp);
 		console.log(`  ✓ ${asset.file} (${webp.length} bytes)`);
 		saved++;
-		if (asset.file === 'tarkov-cheats-hero.webp') heroBuffer = webp;
+		if (asset.file === 'warzone-cheats-hero.webp') heroBuffer = webp;
 	} catch (err) {
 		console.warn(`  ✗ Skip ${asset.file}: ${err.message}`);
 	}
@@ -176,4 +176,4 @@ if (heroBuffer) {
 	console.log('Generated logo + favicons from hero.');
 }
 
-console.log(`\nDone — ${saved}/${KEYWORD_ASSETS.length} Tarkov cheats images (IGN base + ESP/aimbot overlays).`);
+console.log(`\nDone — ${saved}/${KEYWORD_ASSETS.length} Warzone cheats images (IGN base + ESP/aimbot overlays).`);

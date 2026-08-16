@@ -7,4 +7,4 @@ Disallow: /__brand/
 Disallow: /__brand
 
 # Primary sitemap for Google Search Console — index covers EN, locale, and image sitemaps.
-Sitemap: https://tarkovcheats.org/sitemap.xml
+Sitemap: https://warzonecheats.co/sitemap.xml

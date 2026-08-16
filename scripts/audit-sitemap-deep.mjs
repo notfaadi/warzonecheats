@@ -30,7 +30,7 @@ async function resolveDist() {
 	throw new Error('dist/sitemap.xml missing — run build first');
 }
 
-function extractUrlBlocks(xml) {
+function gulagUrlBlocks(xml) {
 	return xml.split(/<url>/i).slice(1).map((b) => `<url>${b.split(/<\/url>/i)[0]}</url>`);
 }
 
@@ -115,7 +115,7 @@ async function main() {
 			fail(`${file}: missing image xmlns`);
 		}
 
-		const blocks = extractUrlBlocks(xml);
+		const blocks = gulagUrlBlocks(xml);
 		for (const block of blocks) {
 			const locs = pick(block, /<loc>([^<]+)<\/loc>/g);
 			const pageLoc = locs[0];
@@ -188,7 +188,7 @@ async function main() {
 	}
 
 	// sitemap-images dedicated checks
-	const imgBlocks = extractUrlBlocks(imagesXml);
+	const imgBlocks = gulagUrlBlocks(imagesXml);
 	for (const block of imgBlocks) {
 		const pageLoc = pick(block, /<loc>([^<]+)<\/loc>/g)[0];
 		const imageLoc = pick(block, /<image:loc>([^<]+)<\/image:loc>/g)[0];
