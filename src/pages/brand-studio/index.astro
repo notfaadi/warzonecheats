@@ -452,12 +452,12 @@ const keywords: Field[] = [
 	{
 		name: 'keywords',
 		label: 'Keyword list',
-		tip: 'What: 5-8 related searches (one per line). | Why: Feeds the meta keywords tag and keeps targeting consistent when you rebrand. | Example: fortnite cheats, fortnite hacks, fortnite esp (one phrase per line)',
+		tip: 'What: Up to 30 related searches (one per line). Mix cheats and hacks phrasing — do not use only cheats. | Why: Feeds the meta keywords tag and schema; do not dump this list into titles or body copy. | Example: fortnite cheats, fortnite hacks, fortnite esp (one phrase per line)',
 		value: brand.keywords.list.join('\n'),
 		textarea: true,
-		rows: 6,
+		rows: 20,
 		required: true,
-		maxlength: 900,
+		maxlength: 1800,
 		span: true,
 	},
 ];

@@ -28,7 +28,7 @@
     "seeFeatures": "See Features",
     "title": "Warzone Cheats",
     "priceFrom": "from",
-    "imageAlt": "{{brand}} — Warzone ESP and aimbot overlay",
+    "imageAlt": "{{brand}} banner — tactical soldier in combat gear",
     "chipEsp": "ESP / wallhack",
     "chipAim": "Soft aim",
     "chipRadar": "2D radar",
@@ -118,7 +118,7 @@
   },
   "home": {
     "aboutTitle": "Undetected warzone cheats for Warzone",
-    "aboutP1": "Warzone Cheats is an undetected Warzone cheat package for Windows PC. One license includes ESP wallhack, soft aim, and 2D radar, with Ricochet rebuilds after game patches. Compare plans on Store, then check Status before you raid.",
+    "aboutP1": "Warzone Cheats is an undetected Warzone cheat package for Windows PC. One license includes ESP wallhack, soft aim, and 2D radar, with Ricochet rebuilds after game patches. Compare plans on Store, then check Status before you drop.",
     "aboutP2Before": "Start with the",
     "aboutPillar": "warzone cheats pillar",
     "aboutEsp": "ESP guide",
@@ -188,22 +188,22 @@
     "blog": "Blog"
   },
   "images": {
-    "hero": "Warzone Cheats hero — ESP and aimbot overlay in Warzone",
+    "hero": "Warzone Cheats banner — tactical soldier in combat gear",
     "espWallhack": "Wallhack outlines showing players through walls",
-    "aimbotCombat": "Soft aim assist overlay during an Warzone raid",
+    "aimbotCombat": "Soft aim assist overlay during a Warzone match",
     "squadFight": "Warzone Cheats combat overlay during a squad fight",
-    "playerEsp": "Player ESP boxes and distance readouts in a Warzone raid",
+    "playerEsp": "Player ESP boxes and distance readouts in a Warzone match",
     "headerArt": "Aimbot view and bone priority controls for Warzone",
     "cheatsPackage": "2D radar threat overlay for Warzone",
     "rebootFight": "Aimbot assist during a Warzone firefight",
-    "battleRoyale": "Warzone Cheats in-raid overview for Windows PC",
+    "battleRoyale": "Warzone Cheats in-match overview for Windows PC",
     "battleRoyaleIsland": "ESP markers for loot and the gulag in Warzone"
   },
   "blog": {
     "blogTitle": "Warzone Cheats Blog | ESP, Cheats & Meta Tips",
     "blogDescription": "Warzone cheats and warzone cheats guides — ESP, aimbot, ranked meta, loot routes, and Ricochet updates. Global English blog at warzonecheats.co/blog/.",
     "blogH1": "Warzone Cheats Intel",
-    "blogIntro": "Actionable Warzone guides for raid and Resurgence — meta breakdowns, loot routes, weapon tiers, and pro warmup routines. Pair these tips with our warzone cheats pages for ESP boxes, soft aim, and cloud DMA when you need in-match tools.",
+    "blogIntro": "Actionable Warzone guides for BR and Resurgence — meta breakdowns, loot routes, weapon tiers, and pro warmup routines. Pair these tips with our warzone cheats pages for ESP boxes, soft aim, and cloud DMA when you need in-match tools.",
     "readMore": "Read guide",
     "published": "Published",
     "updated": "Updated",
@@ -223,7 +223,7 @@
     "highlightRadarTitle": "warzone cheats radar",
     "highlightRadarCopy": "Track nearby threats with warzone cheats radar before you push or gulag.",
     "highlightAimbotTitle": "warzone cheats aimbot",
-    "highlightAimbotCopy": "Use soft aim and aimbot controls tuned for Warzone raids on Windows PC.",
+    "highlightAimbotCopy": "Use soft aim and aimbot controls tuned for Warzone matches on Windows PC.",
     "updatesLabel": "warzone cheats updates",
     "updatesShort": "Updates"
   }

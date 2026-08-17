@@ -2,7 +2,7 @@ import { siteConfig } from './site';
 
 /** Screenshots used across product pages — simple warzone cheats keyword alts. */
 export const tarkovImages = {
-	hero: '/images/tarkov-cheats-hero-full.png',
+	hero: '/images/warzone-cheats-hero-full.png',
 	espWallhack: '/images/tarkov-cheats-wallhack.webp',
 	aimbotCombat: '/images/tarkov-cheats-aimbot.webp',
 	aimbotSkeleton: '/images/tarkov-cheats-aimbot-view.webp',
@@ -18,8 +18,8 @@ export const tarkovImages = {
 	battleRoyaleCombat: '/images/tarkov-cheats-raid.webp',
 	gulagFight: '/images/tarkov-cheats-aimbot.webp',
 	rebootFight: '/images/tarkov-cheats-aimbot.webp',
-	scavRunCombat: '/images/tarkov-cheats-wallhack.webp',
-	scavRunMode: '/images/tarkov-cheats-esp.webp',
+	resurgenceCombat: '/images/tarkov-cheats-wallhack.webp',
+	resurgenceMode: '/images/tarkov-cheats-esp.webp',
 	battleRoyaleIsland: '/images/tarkov-cheats-esp.webp',
 	raidMap: '/images/tarkov-cheats-esp.webp',
 	product: [

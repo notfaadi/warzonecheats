@@ -11,7 +11,7 @@ import { randomBytes } from 'node:crypto';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const BRAND_PATH = path.join(ROOT, 'src/data/brand.ts');
 
-const MAX_KEYWORDS = 12;
+const MAX_KEYWORDS = 30;
 const SEO_KEYS = [
 	'homeTitle',
 	'homeDescription',
@@ -366,8 +366,8 @@ export function validateBrandPayload(body) {
 	const lifetimeLabel = soft(b.lifetimeLabel, 'Lifetime', 40);
 	const logo = assetPath(b.logo ?? '/images/tarkov-cheats-logo.webp');
 	const logoRaster = assetPath(b.logoRaster ?? '/images/tarkov-cheats-logo.png');
-	const defaultOgImage = assetPath(b.defaultOgImage ?? '/images/tarkov-cheats-combat.webp');
-	const heroImage = assetPath(b.heroImage ?? '/images/tarkov-hero-banner.webp');
+	const defaultOgImage = assetPath(b.defaultOgImage ?? '/images/warzone-cheats-hero-1024w.webp');
+	const heroImage = assetPath(b.heroImage ?? '/images/warzone-cheats-hero-1024w.webp');
 	const logoAlt = soft(b.logoAlt, `${name || 'Brand'} logo`, 120);
 	const logoW = price(b.logoRasterWidth ?? 512) ?? 512;
 	const logoH = price(b.logoRasterHeight ?? 512) ?? 512;
@@ -734,7 +734,7 @@ export const brand = {
 
 	/**
 	 * Keyword system — primary drives titles; list feeds schema / light targeting.
-	 * Keep 5–8 terms.
+	 * Mix cheats + hacks phrasing. Keep ~24–28 terms (cap 30).
 	 */
 	keywords: {
 		primary: '${e(data.primary)}',

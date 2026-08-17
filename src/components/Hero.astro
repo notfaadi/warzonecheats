@@ -1,9 +1,10 @@
 ---
+/** Full-bleed homepage banner (valohacks layout). */
 import HeroApp from './react/Hero';
 import type { LocaleCode } from '../data/i18n/locales';
 import { defaultLocale } from '../data/i18n/locales';
 import { productInfo, siteConfig } from '../data/site';
-import { heroWidth, heroHeight, heroSrcSet, heroSizes, heroSrc } from '../lib/responsive-images';
+import { heroWidth, heroHeight, heroSrcSet, heroSizes } from '../lib/responsive-images';
 
 interface Props {
 	locale?: LocaleCode;
@@ -19,7 +20,7 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 	siteName={siteConfig.name}
 	checkoutUrl={siteConfig.checkoutUrl}
 	monthlyPrice={monthly.price}
-	heroSrc={heroSrc}
+	heroSrc={siteConfig.heroImage}
 	heroSrcSet={heroSrcSet}
 	heroSizes={heroSizes}
 	heroWidth={heroWidth}
@@ -29,23 +30,22 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 
 <style is:global>
 	.hero {
-		--hero-pad-y: clamp(1rem, 2vw, 1.75rem);
-		--hero-stack: clamp(0.5rem, 1.1vw, 0.75rem);
-		/*
-		 * Bar is a bit shorter than the native 1024/409 (~2.5:1) art.
-		 * Image stays undistorted via object-fit: cover (crops edges, no squash).
-		 */
-		--hero-ratio: 3.15 / 1;
+		--hero-pad-y: clamp(2rem, 4vw, 3rem);
+		--hero-stack: clamp(0.7rem, 1.6vw, 0.9rem);
+		/* Full-bleed banner — same pattern as valohacks (Valorant Hacks). */
 		position: relative;
 		isolation: isolate;
 		display: grid;
 		align-items: center;
 		overflow: hidden;
 		background: #050506;
-		aspect-ratio: var(--hero-ratio);
 		width: 100%;
-		height: auto;
-		min-height: 0;
+		min-height: 100vh;
+		min-height: 100dvh;
+		min-height: 100svh;
+		height: 100vh;
+		height: 100dvh;
+		height: 100svh;
 		max-height: none;
 	}
 
@@ -63,10 +63,8 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 	}
 
 	.hero__media img {
-		/* Cover = keep proportions; crop top/bottom of the shorter bar */
 		object-fit: cover;
-		/* Prefer a bit higher in the frame so the USEC head stays in view */
-		object-position: right 28%;
+		object-position: right center;
 		image-rendering: auto;
 		transform: translateZ(0);
 		animation: hero-in 0.9s ease-out both;
@@ -281,32 +279,33 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 	}
 
 	/*
-	 * Phones / small tablets: stop using the ultra-wide 3.15:1 bar.
-	 * That ratio collapses to ~120px tall on a 390px phone and clips the CTA.
-	 * Mobile = taller full-bleed panel; height grows with copy.
+	 * Mobile stays a full-bleed banner (not a short cropped strip).
+	 * Source art is right-weighted; 80% center puts the soldier in the
+	 * middle of a ~390px / 100svh crop. Bottom scrim keeps copy readable.
 	 */
 	@media (max-width: 900px) {
 		.hero {
-			aspect-ratio: auto;
-			min-height: 0;
+			min-height: 100svh;
+			height: 100svh;
 			max-height: none;
-			height: auto;
-			display: block;
-			overflow: hidden;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
 		}
 
 		.hero__media img {
 			object-fit: cover;
-			object-position: 78% 10%;
+			object-position: 80% center;
 		}
 
 		.hero__veil {
 			background: linear-gradient(
 				180deg,
-				rgba(5, 5, 6, 0.28) 0%,
-				rgba(5, 5, 6, 0.52) 42%,
-				rgba(5, 5, 6, 0.9) 78%,
-				rgba(5, 5, 6, 0.96) 100%
+				rgba(5, 5, 6, 0.16) 0%,
+				rgba(5, 5, 6, 0.28) 32%,
+				rgba(5, 5, 6, 0.72) 62%,
+				rgba(5, 5, 6, 0.92) 82%,
+				rgba(5, 5, 6, 0.97) 100%
 			);
 		}
 

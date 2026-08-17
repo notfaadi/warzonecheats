@@ -53,7 +53,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'See players, loadouts, and loot through walls with distance readouts.',
 					'Use filters so the overlay stays clear in Verdansk, Rebirth, and Resurgence chaos.',
 				],
-				list: ['Player boxes & distance', 'Loot and vehicle markers', 'Squad and bot filters'],
+				list: ['Player boxes & distance', 'Loot ESP and vehicle markers', 'Squad and bot filters'],
 			},
 			{
 				h2: 'Aimbot & soft aim',
@@ -61,7 +61,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'Aim help you can tune to feel natural.',
 					'Set FOV, smoothness, and bone priority per weapon before you drop.',
 				],
-				list: ['Smooth aim strength', 'FOV and bone priority', 'Hotkeys mid-match'],
+				list: ['Smooth aim strength', 'FOV and bone priority', 'Tune aim and ESP filters', 'Hotkeys mid-match'],
 			},
 			{
 				h2: 'Radar',
@@ -77,7 +77,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'We rebuild after big {game} or {antiCheat} patches.',
 					'Check Status before you play after a patch day.',
 				],
-				list: ['Status on the Status page', 'Setup guide included', 'Email support with your order ID'],
+				list: ['Patch notes on Status', 'Setup guide included', 'Email support with your order ID'],
 			},
 		],
 	}),
@@ -95,9 +95,9 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'What you get',
 				paragraphs: [
 					'Full package access for Windows 10 / 11.',
-					'Same ESP, soft aim, and radar on monthly and lifetime plans.',
+					'Same ESP, loot ESP, smooth aim, and radar on monthly and lifetime plans.',
 				],
-				list: ['ESP, aimbot, and radar', 'Patch rebuilds while active', 'Digital delivery after checkout'],
+				list: ['ESP, loot ESP, smooth aim, and radar', 'Patch rebuilds while active', 'Digital delivery after checkout'],
 			},
 			{
 				h2: 'Plans',
@@ -170,8 +170,8 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'One license for Call of Duty Warzone on Windows PC — built for BR matches and Resurgence.',
 				],
 				list: [
-					'ESP / wallhack with distance',
-					'Soft aim & aimbot profiles',
+					'ESP / wallhack with loot ESP',
+					'Smooth aim & aimbot profiles',
 					'2D radar for flanks',
 					'Ricochet rebuilds after patches',
 				],
@@ -308,7 +308,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'Install steps',
 				paragraphs: ['Run the loader as admin, paste your license, then launch {game}.'],
-				list: ['Download the loader from your delivery email', 'Paste license key', 'Launch the game'],
+				list: ['Download the loader from your delivery email', 'Run only that loader', 'Paste license key', 'Launch the game'],
 			},
 			{
 				h2: 'If something fails',

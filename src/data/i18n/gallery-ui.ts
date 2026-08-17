@@ -19,7 +19,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		highlights: [
 			{ title: 'warzone cheats esp', copy: 'See players through walls with warzone cheats esp and wallhack overlays.' },
 			{ title: 'warzone cheats radar', copy: 'Track nearby threats with warzone cheats radar before you push or gulag.' },
-			{ title: 'warzone cheats aimbot', copy: 'Use soft aim and aimbot controls tuned for Warzone raids on Windows PC.' },
+			{ title: 'warzone cheats aimbot', copy: 'Use soft aim and aimbot controls tuned for Warzone matches on Windows PC.' },
 		],
 		updatesLabel: 'warzone cheats updates',
 		updatesShort: 'Updates',
@@ -27,7 +27,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	es: {
 		eyebrow: 'Warzone Cheats',
 		title: 'Galería Warzone',
-		subtitle: 'Visuales de Warzone con loadouts, peleas de escuadrón y combate raid — junto a herramientas ESP, radar y Aimbot.',
+		subtitle: 'Visuales de Warzone con loadouts, peleas de escuadrón y combate BR — junto a herramientas ESP, radar y Aimbot.',
 		lead: 'Warzone Cheats está pensado para el loop BR de Warzone: leer el mapa, rastrear escuadrones enemigos, lootear y sobrevivir al gulag.',
 		highlights: [
 			{ title: 'ESP de players y escuadrones', copy: 'Detecta players enemigos y contornos de escuadrón en Verdansk y Resurgence para elegir peleas con mejor información.' },
@@ -40,7 +40,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	fr: {
 		eyebrow: 'Warzone Cheats',
 		title: 'Galerie Warzone',
-		subtitle: 'Visuels Warzone — loadouts, combats d\'escouade et raid — avec ESP, radar et Aimbot.',
+		subtitle: 'Visuels Warzone — loadouts, combats d\'escouade et BR — avec ESP, radar et Aimbot.',
 		lead: 'Warzone Cheats suit la boucle BR de Warzone : lire la carte, suivre les escouades, loot et survivre au gulag.',
 		highlights: [
 			{ title: 'ESP players & escouades', copy: 'Repérez les players ennemis sur Verdansk et Resurgence pour choisir vos engagements.' },
@@ -53,7 +53,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	de: {
 		eyebrow: 'Warzone Cheats',
 		title: 'Warzone Galerie',
-		subtitle: 'Warzone-Bilder zu Loadouts, Squad-Kämpfen und raid — mit ESP, Radar und Aimbot.',
+		subtitle: 'Warzone-Bilder zu Loadouts, Squad-Kämpfen und BR — mit ESP, Radar und Aimbot.',
 		lead: 'Warzone Cheats passt zur Raid-Schleife von Warzone: Karte lesen, Gegner-Trupps tracken, looten und Extract überleben.',
 		highlights: [
 			{ title: 'Player- & Squad-ESP', copy: 'Erkenne feindliche Playeren auf Verdansk und Resurgence für bessere Rotationsentscheidungen.' },
@@ -66,7 +66,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	pt: {
 		eyebrow: 'Warzone Cheats',
 		title: 'Galeria Warzone',
-		subtitle: 'Visuais de Warzone com loadouts, combates de esquadrão e raid — com ESP, radar e Aimbot.',
+		subtitle: 'Visuais de Warzone com loadouts, combates de esquadrão e BR — com ESP, radar e Aimbot.',
 		lead: 'Warzone Cheats segue o loop BR do Warzone: ler o mapa, rastrear esquadrões, lootar e sobreviver ao gulag.',
 		highlights: [
 			{ title: 'ESP de players e esquadrões', copy: 'Detecte players inimigos em Verdansk e Resurgence para escolher lutas com melhor intel.' },
@@ -79,7 +79,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	it: {
 		eyebrow: 'Warzone Cheats',
 		title: 'Galleria Warzone',
-		subtitle: 'Immagini Warzone — loadout, scontri di squadra e raid — con ESP, radar e Aimbot.',
+		subtitle: 'Immagini Warzone — loadout, scontri di squadra e BR — con ESP, radar e Aimbot.',
 		lead: 'Warzone Cheats è pensato per il loop BR di Warzone: leggere la mappa, tracciare squadre nemiche, loot e sopravvivere al gulag.',
 		highlights: [
 			{ title: 'ESP playeri e squadre', copy: 'Individua playeri nemici su Verdansk e Resurgence per scegliere i fight con più intel.' },
@@ -92,8 +92,8 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	nl: {
 		eyebrow: 'Warzone Cheats',
 		title: 'Warzone galerij',
-		subtitle: 'Warzone-beelden van loadouts, squadgevechten en raid — met ESP, radar en Aimbot.',
-		lead: 'Warzone Cheats volgt de raid-loop van Warzone: kaart lezen, vijandelijke squads volgen, looten en de gulag overleven.',
+		subtitle: 'Warzone-beelden van loadouts, squadgevechten en BR — met ESP, radar en Aimbot.',
+		lead: 'Warzone Cheats volgt de BR-loop van Warzone: kaart lezen, vijandelijke squads volgen, looten en de gulag overleven.',
 		highlights: [
 			{ title: 'Player- & squad-ESP', copy: 'Spot vijandelijke players op Verdansk en Resurgence voor betere rotatiebeslissingen.' },
 			{ title: 'Loot- & chestmarkers', copy: 'Markeer loadout-drops, chesten en high-tier loot zonder schermoverlast.' },
@@ -105,7 +105,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	pl: {
 		eyebrow: 'Warzone Cheats',
 		title: 'Galeria Warzone',
-		subtitle: 'Grafiki Warzone — loadouty, walki drużynowe i raid — z ESP, radar i Aimbot.',
+		subtitle: 'Grafiki Warzone — loadouty, walki drużynowe i BR — z ESP, radar i Aimbot.',
 		lead: 'Warzone Cheats pasuje do pętli BR Warzone: czytaj mapę, śledź wrogie drużyny, lootuj i przeżyj gulag.',
 		highlights: [
 			{ title: 'ESP players i drużyn', copy: 'Wykrywaj wrogich players na Verdansk i Resurgence dla lepszych decyzji rotacyjnych.' },
@@ -118,7 +118,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	ru: {
 		eyebrow: 'Warzone Cheats',
 		title: 'Галерея Warzone',
-		subtitle: 'Визуалы Warzone — лоадауты, бои отрядов и raid — с ESP, радаром и Aimbot.',
+		subtitle: 'Визуалы Warzone — лоадауты, бои отрядов и BR — с ESP, радаром и Aimbot.',
 		lead: 'Warzone Cheats создан для рейд-циклу Warzone: читать карту, отслеживать вражеские отряды, лут и выживать в gulag.',
 		highlights: [
 			{ title: 'ESP игроков и отрядов', copy: 'Замечайте вражеских игроков на Verdansk и Resurgence для лучших решений по ротации.' },
@@ -131,7 +131,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	tr: {
 		eyebrow: 'Warzone Cheats',
 		title: 'Warzone galerisi',
-		subtitle: 'Loadout, takım savaşları ve raid görselleri — ESP, radar ve Aimbot ile.',
+		subtitle: 'Loadout, takım savaşları ve BR görselleri — ESP, radar ve Aimbot ile.',
 		lead: 'Warzone Cheats, Warzone BR döngüsü için: haritayı oku, düşman takımları izle, loot al ve gulag\'da hayatta kal.',
 		highlights: [
 			{ title: 'Player ve takım ESP', copy: 'Verdansk ve Resurgence\'da düşman playerleri görerek daha iyi rotasyon kararları alın.' },
@@ -144,7 +144,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	ar: {
 		eyebrow: 'Warzone Cheats',
 		title: 'معرض Warzone',
-		subtitle: 'صور Warzone — loadouts ومعارك الفرق وraid — مع ESP ورادار وAimbot.',
+		subtitle: 'صور Warzone — loadouts ومعارك الفرق وBR — مع ESP ورادار وAimbot.',
 		lead: 'Warzone Cheats مبني لحلقة BR في Warzone: قراءة الخريطة، تتبع الفرق، جمع اللوت والنجاة في gulag.',
 		highlights: [
 			{ title: 'ESP للمشغلين والفرق', copy: 'اكتشف players المعادين على Verdansk وResurgence لاختيار القتالات بذكاء.' },
@@ -196,7 +196,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	hi: {
 		eyebrow: 'Warzone Cheats',
 		title: 'Warzone गैलरी',
-		subtitle: 'Loadout, squad fights और raid visuals — ESP, radar और Aimbot के साथ।',
+		subtitle: 'Loadout, squad fights और BR visuals — ESP, radar और Aimbot के साथ।',
 		lead: 'Warzone Cheats Warzone BR loop के लिए: map पढ़ें, enemy squads track करें, loot करें और gulag survive करें।',
 		highlights: [
 			{ title: 'Player & Squad ESP', copy: 'Verdansk और Resurgence पर enemy players spot करें बेहतर rotation decisions के लिए।' },
@@ -209,7 +209,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	id: {
 		eyebrow: 'Warzone Cheats',
 		title: 'Galeri Warzone',
-		subtitle: 'Visual Warzone — loadout, pertempuran squad, dan raid — dengan ESP, radar, dan Aimbot.',
+		subtitle: 'Visual Warzone — loadout, pertempuran squad, dan BR — dengan ESP, radar, dan Aimbot.',
 		lead: 'Warzone Cheats untuk loop BR Warzone: baca peta, lacak squad musuh, loot, dan selamat di gulag.',
 		highlights: [
 			{ title: 'ESP player & squad', copy: 'Deteksi player musuh di Verdansk dan Resurgence untuk keputusan rotasi lebih baik.' },
@@ -222,7 +222,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	th: {
 		eyebrow: 'Warzone Cheats',
 		title: 'แกลเลอรี Warzone',
-		subtitle: 'ภาพ Warzone — loadout การต่อสู้ทีม และ raid — พร้อม ESP เรดาร์และ Aimbot',
+		subtitle: 'ภาพ Warzone — loadout การต่อสู้ทีม และ BR — พร้อม ESP เรดาร์และ Aimbot',
 		lead: 'Warzone Cheats สำหรับลูป BR ของ Warzone: อ่านแผนที่ ติดตามทีมศัตรู เก็บ loot และรอด gulag',
 		highlights: [
 			{ title: 'ESP ผู้เล่นและทีม', copy: 'มองเห็นศัตรูบน Verdansk และ Resurgence เพื่อตัดสินใจหมุนเวียนได้ดีขึ้น' },
@@ -235,7 +235,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	vi: {
 		eyebrow: 'Warzone Cheats',
 		title: 'Thư viện Warzone',
-		subtitle: 'Hình ảnh Warzone — loadout, chiến đấu squad và raid — với ESP, radar và Aimbot.',
+		subtitle: 'Hình ảnh Warzone — loadout, chiến đấu squad và BR — với ESP, radar và Aimbot.',
 		lead: 'Warzone Cheats cho vòng BR Warzone: đọc bản đồ, theo dõi squad địch, loot và sống sót gulag.',
 		highlights: [
 			{ title: 'ESP player & squad', copy: 'Phát hiện player địch trên Verdansk và Resurgence để quyết định rotate tốt hơn.' },
@@ -248,7 +248,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	uk: {
 		eyebrow: 'Warzone Cheats',
 		title: 'Галерея Warzone',
-		subtitle: 'Візуали Warzone — loadout, бої загонів і raid — з ESP, радаром і Aimbot.',
+		subtitle: 'Візуали Warzone — loadout, бої загонів і BR — з ESP, радаром і Aimbot.',
 		lead: 'Warzone Cheats для рейд-циклу Warzone: читати карту, відстежувати ворожі загони, лут і виживати в gulag.',
 		highlights: [
 			{ title: 'ESP гравців і загонів', copy: 'Помічайте ворожих гравців на Verdansk і Resurgence для кращих ротацій.' },
@@ -261,7 +261,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	cs: {
 		eyebrow: 'Warzone Cheats',
 		title: 'Galerie Warzone',
-		subtitle: 'Warzone vizuály — loadouty, squad souboje a raid — s ESP, radarem a Aimbot.',
+		subtitle: 'Warzone vizuály — loadouty, squad souboje a BR — s ESP, radarem a Aimbot.',
 		lead: 'Warzone Cheats pro BR smyčku Warzone: číst mapu, sledovat nepřátelské squady, loot a přežít gulag.',
 		highlights: [
 			{ title: 'ESP players a squadů', copy: 'Spozorujte nepřátelské operátory na Verdansk a Resurgence pro lepší rotační rozhodnutí.' },
@@ -274,7 +274,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	ro: {
 		eyebrow: 'Warzone Cheats',
 		title: 'Galerie Warzone',
-		subtitle: 'Vizualuri Warzone — loadout, lupte de squad și raid — cu ESP, radar și Aimbot.',
+		subtitle: 'Vizualuri Warzone — loadout, lupte de squad și BR — cu ESP, radar și Aimbot.',
 		lead: 'Warzone Cheats pentru bucla BR Warzone: citește harta, urmărește squad-uri inamice, loot și supraviețuiește gulag.',
 		highlights: [
 			{ title: 'ESP playeri și squad-uri', copy: 'Detectează playeri inamici pe Verdansk și Resurgence pentru decizii de rotație mai bune.' },
@@ -287,8 +287,8 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	sv: {
 		eyebrow: 'Warzone Cheats',
 		title: 'Warzone galleri',
-		subtitle: 'Warzone-bilder — loadouts, squadstrider och raid — med ESP, radar och Aimbot.',
-		lead: 'Warzone Cheats för Warzone:s raid-loop: läs kartan, spåra fiendesquads, loota och överlev gulag.',
+		subtitle: 'Warzone-bilder — loadouts, squadstrider och BR — med ESP, radar och Aimbot.',
+		lead: 'Warzone Cheats för Warzone:s BR-loop: läs kartan, spåra fiendesquads, loota och överlev gulag.',
 		highlights: [
 			{ title: 'Player- & squad-ESP', copy: 'Spotta fiendeplayerer på Verdansk och Resurgence för bättre rotationsbeslut.' },
 			{ title: 'Loot- & petitsmarkörer', copy: 'Markera loadout-drops, petit och high-tier loot utan skärmklutter.' },

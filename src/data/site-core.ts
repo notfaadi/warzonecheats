@@ -126,14 +126,14 @@ export const productInfo = {
 		esp: [
 			'Player ESP / wallhack',
 			'Loadout and threat cues',
-			'Loot and vehicle markers',
+			'Loot ESP and vehicle markers',
 			'Distance readouts',
 			'Toggleable ESP categories',
 			'Downed and contract highlights',
 		],
 		aimbot: [
 			'Soft aim and aimbot controls',
-			'Smoothness and FOV settings',
+			'Smooth aim assist and FOV settings',
 			'Bone priority',
 			'Hotkeys mid-match',
 			'Per-weapon profiles',

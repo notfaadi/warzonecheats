@@ -1,21 +1,21 @@
 /** Descriptive image alts — Google rejects empty or keyword-only alts. */
 export const DESCRIPTIVE_IMAGE_ALTS = {
-	hero: 'Warzone Cheats hero — ESP and aimbot overlay in Warzone',
+	hero: 'Warzone Cheats banner — tactical soldier in combat gear',
 	espWallhack: 'Wallhack outlines showing players through walls',
-	aimbotCombat: 'Soft aim assist overlay during an Warzone raid',
+	aimbotCombat: 'Soft aim assist overlay during a Warzone match',
 	squadFight: 'Warzone Cheats combat overlay during a squad fight',
-	playerEsp: 'Player ESP boxes and distance readouts in a Warzone raid',
+	playerEsp: 'Player ESP boxes and distance readouts in a Warzone match',
 	headerArt: 'Aimbot view and bone priority controls for Warzone',
 	cheatsPackage: '2D radar threat overlay for Warzone',
 	rebootFight: 'Aimbot assist during a Warzone firefight',
-	battleRoyale: 'Warzone Cheats in-raid overview for Windows PC',
+	battleRoyale: 'Warzone Cheats in-match overview for Windows PC',
 	battleRoyaleIsland: 'ESP markers for loot and the gulag in Warzone',
 };
 
 /** Page-level image alt by pageId (EN source of truth). */
 export const PAGE_IMAGE_ALTS = {
-	home: 'Warzone Cheats homepage hero — ESP and aimbot for Warzone',
-	'warzone-esp': 'Warzone ESP player boxes and distance readouts in a raid',
+	home: 'Warzone Cheats banner — tactical soldier in combat gear',
+	'warzone-esp': 'Warzone ESP player boxes and distance readouts in a match',
 	'warzone-aimbot': 'Warzone aimbot and soft aim controls on Windows PC',
 	features: 'Warzone Cheats features — ESP, soft aim, and radar screenshots',
 	pricing: 'Warzone Cheats store plans for monthly and lifetime licenses',
@@ -24,7 +24,7 @@ export const PAGE_IMAGE_ALTS = {
 	faq: 'Warzone Cheats FAQ — delivery, setup, and update answers',
 	support: 'Warzone Cheats support page for license and setup help',
 	undetected: 'Warzone Cheats undetected status overview for Windows PC',
-	wallhack: 'Warzone wallhack visibility through walls in a raid',
+	wallhack: 'Warzone wallhack visibility through walls in a match',
 	radar: 'Warzone 2D radar overlay showing nearby threats',
 	ricochet: 'Warzone Cheats maintenance after a Ricochet patch',
 	'cheats-2026': 'Warzone Cheats product overview for Warzone',

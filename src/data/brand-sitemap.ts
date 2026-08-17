@@ -40,7 +40,7 @@ const defaultImages: BrandSitemapImage[] = [
 	{
 		src: '/images/tarkov-cheats-raid.webp',
 		title: 'warzone cheats',
-		caption: 'warzone cheats in raid',
+		caption: 'warzone cheats in BR',
 	},
 ];
 

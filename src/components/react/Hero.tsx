@@ -78,7 +78,7 @@ function HeroInner({
 	useBrandHero = true,
 }: Props) {
 	const { t } = useTranslation();
-	const title = useBrandHero ? t('hero.title') : t('hero.accent');
+	const title = useBrandHero ? siteName : t('hero.accent');
 	const subtitle = useBrandHero ? t('hero.subtitle') : t('hero.subtitle');
 	const ctaBuy = useBrandHero ? t('cta.buy') : t('hero.buyNow');
 	const priceFrom = t('hero.priceFrom');

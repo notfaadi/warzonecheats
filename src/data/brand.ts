@@ -25,8 +25,8 @@ export const brand = {
 	logoRasterWidth: 512,
 	logoRasterHeight: 512,
 	logoAlt: 'Warzone Cheats logo',
-	defaultOgImage: '/images/tarkov-cheats-hero-1024w.webp',
-	heroImage: '/images/tarkov-cheats-hero-1024w.webp',
+	defaultOgImage: '/images/warzone-cheats-hero-1024w.webp',
+	heroImage: '/images/warzone-cheats-hero-1024w.webp',
 
 	plans: [
 		{ id: 'monthly', label: 'Monthly', price: 35, duration: 'P30D' },
@@ -50,7 +50,7 @@ export const brand = {
 
 	/**
 	 * Keyword system — primary drives titles; list feeds schema / light targeting.
-	 * Keep 5–8 terms.
+	 * Keep ~24–28 real search queries (Brand Studio cap 30). Skip fake claims and slogans.
 	 */
 	keywords: {
 		primary: 'warzone cheats',
@@ -61,8 +61,26 @@ export const brand = {
 			'warzone aimbot',
 			'warzone wallhack',
 			'undetected warzone cheats',
+			'undetected warzone hacks',
 			'best warzone cheats',
+			'best warzone hacks',
 			'call of duty warzone cheats',
+			'call of duty warzone hacks',
+			'warzone cheats pc',
+			'warzone hacks pc',
+			'warzone cheats 2026',
+			'warzone hacks 2026',
+			'warzone radar hack',
+			'warzone soft aim',
+			'warzone cheat download',
+			'warzone loot esp',
+			'smooth aim assist',
+			'warzone mod menu',
+			'warzone unlock all',
+			'warzone ricochet bypass',
+			'warzone dma cheats',
+			'buy warzone cheats',
+			'warzone esp hack',
 		] as const,
 	},
 
@@ -71,57 +89,50 @@ export const brand = {
 	 * Aim ~50–60 chars titles, ~140–160 chars descriptions.
 	 */
 	seo: {
-		/** Titles ≤60 chars; descriptions ~140–160 (Google SERP display). */
-		/** Home = brand hub. Money URL /warzone-cheats/ owns the head term. */
 		homeTitle: 'Warzone Cheats | Official Windows PC Site',
 		homeDescription:
-			'Official Warzone Cheats site for Windows PC. Compare features, store plans, and live status — then buy ESP, soft aim, and radar in one license.',
+			'Official Warzone Cheats site for Windows PC. ESP, loot ESP, smooth aim, and radar in one license. Check Status after Ricochet patches before you buy.',
 		featuresTitle: '{game} Features | {brand}',
 		featuresDescription:
-			'Everything in one {game} license for Windows PC — ESP, soft aim, radar, loadout tools, and patch updates after {antiCheat}. See what is included.',
+			'Everything in one {game} license for Windows PC. ESP, loot ESP, smooth aim, and radar you can tune. See Features, then check Status after {antiCheat}.',
 		storeTitle: '{game} Store | {brand}',
 		storeDescription:
-			'Monthly and lifetime {game} plans for Windows PC. Same ESP, aimbot, and radar features on both. Instant delivery after payment checkout.',
+			'Monthly and lifetime {game} plans for Windows PC. Same ESP, loot ESP, smooth aim, and radar on both. Instant digital delivery after checkout.',
 		statusTitle: '{game} Status | {brand}',
-		statusDescription:
-			'Live undetected status for {brand} after {game} or {antiCheat} patches. Check here before you queue a match on Windows PC today.',
-		/** Money page meta — primary target for "warzone cheats". */
-		previewTitle: 'Warzone Cheats | Undetected ESP & Aimbot',
+		statusDescription: 'Live undetected status for {brand} after {game} or {antiCheat} patches. Check here before you queue a match on Windows PC today.',
+		previewTitle: 'Warzone Cheats | Undetected ESP & Smooth Aim',
 		previewDescription:
-			'Buy undetected warzone cheats for Call of Duty Warzone on Windows PC. ESP, soft aim, radar, and Ricochet patch updates in one license with instant delivery.',
+			'Buy undetected warzone cheats on Windows PC. ESP, loot ESP, smooth aim, and radar in one license. Instant delivery, with Ricochet patch updates.',
 		setupTitle: '{game} Setup | {brand}',
 		setupDescription:
-			'Install and launch {brand} on Windows PC after checkout. Short setup steps so you can drop faster. Follow each step in order before your first match.',
+			'Install {brand} on Windows PC after checkout. Run the loader from your delivery email, paste your license, then launch. Follow each step in order.',
 		supportTitle: '{game} Support | {brand}',
 		supportDescription:
-			'Get help with {brand} on Windows PC. Email {email} with your order ID for setup, delivery, or billing help after you buy.',
+			'Get help with {brand} on Windows PC. Email {email} with your order ID for setup, delivery, or billing. Check Status after a patch.',
 		faqTitle: '{game} FAQ | {brand}',
-		faqDescription:
-			'Short answers about {brand} for Call of Duty Warzone — delivery, setup, {antiCheat} updates, refunds, and Windows PC system notes before you buy.',
+		faqDescription: 'Short answers about {brand} for Call of Duty Warzone — delivery, setup, {antiCheat} updates, refunds, and Windows PC system notes before you buy.',
 		reviewsTitle: '{brand} Reviews | Buyer Feedback',
-		reviewsDescription:
-			'Buyer reviews for {brand} — ESP, soft aim, radar, and patch updates for Call of Duty Warzone on Windows PC. Real feedback from license holders.',
+		reviewsDescription: 'Buyer reviews for {brand} — ESP, soft aim, radar, and patch updates for Call of Duty Warzone on Windows PC. Real feedback from license holders.',
 		blogTitle: '{game} Intel | {brand}',
-		blogDescription:
-			'Guides and notes for {game} — BR tips, ESP, aimbot, loadouts, and {antiCheat} update coverage for Windows PC players who drop.',
+		blogDescription: 'Guides and notes for {game} — BR tips, ESP, aimbot, loadouts, and {antiCheat} update coverage for Windows PC players who drop.',
 	},
 
 	/** On-page marketing copy (tokens allowed) */
 	copy: {
-		tagline: 'Undetected {primaryKeyword} — ESP, aimbot, and radar for PC',
+		tagline: 'Undetected {game} cheats — ESP, loot ESP, smooth aim, and radar for PC',
 		summary:
-			'{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
-		heroLede: 'Undetected ESP, soft aim, and radar for Call of Duty Warzone on Windows PC.',
+			'{brand} is undetected {game} cheats for Windows PC. Includes ESP, loot ESP, smooth aim, and radar, with {antiCheat} rebuilds after patches.',
+		heroLede: 'Undetected ESP, loot ESP, smooth aim, and radar for Call of Duty Warzone on Windows PC.',
 		blogLabel: 'Warzone Intel',
 		ctaBuy: 'Get Access',
 		ctaBuyShort: 'Buy',
-		featuresIntro: 'Everything included in one license for {game} on Windows PC.',
+		featuresIntro: 'ESP, loot ESP, smooth aim, and radar in one license for {game} on Windows PC.',
 		storeIntro: 'Pick a plan. Same features on both. Instant delivery after payment.',
 		statusIntro: 'Check here after a {game} or {antiCheat} patch before you drop.',
 		previewIntro:
-			'{brand} for Call of Duty Warzone — ESP wallhack, soft aim, 2D radar, and Ricochet rebuilds after patches.',
-		setupIntro: 'Install {brand} on Windows PC after you buy. Follow these short steps.',
-		supportIntro: 'Need help with {brand}? Email {email} with your order ID.',
+			'{brand} for Call of Duty Warzone. ESP, loot ESP, smooth aim, and 2D radar, with Ricochet rebuilds after patches.',
+		setupIntro: 'Install {brand} on Windows PC after you buy. Run the loader from your delivery email.',
+		supportIntro: 'Need help with {brand}? Email {email} with your order ID. Check Status after a patch.',
 		faqIntro: 'Short answers about delivery, setup, updates, and refunds.',
 		reviewsIntro: 'Feedback from {brand} buyers — ESP, soft aim, radar, and support.',
 		chipEsp: 'ESP / wallhack',
@@ -142,11 +153,11 @@ export const brand = {
 	 */
 	sitemap: {
 		/** YYYY-MM-DD — Brand Studio can bump this on save to refresh crawl dates */
-		contentLastmod: '2026-08-17',
+		contentLastmod: '2026-08-16',
 		blogImageTitle: '{brand} blog',
-		blogImageCaption: 'Tips and updates for {primaryKeyword}',
+		blogImageCaption: 'Tips and updates for {game} cheats and hacks',
 		reviewsImageTitle: '{brand} reviews',
-		reviewsImageCaption: 'What buyers say about {primaryKeyword}',
+		reviewsImageCaption: 'What buyers say about {game} cheats and hacks',
 		images: [
 			{
 				src: '/images/tarkov-cheats-esp.webp',

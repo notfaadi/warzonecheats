@@ -9,7 +9,7 @@ export const enPages = {
 		h1: 'Warzone Cheats — Undetected ESP, Wallhack & Aimbot',
 		intro:
 			'Warzone Cheats is the undetected warzone cheats package for Windows PC — built for Warzone on Windows PC. Warzone esp wallhack, 2D radar, and warzone aimbot with Ricochet maintenance after every major patch.',
-		imageAlt: "Warzone Cheats homepage hero — ESP and aimbot for Warzone",
+		imageAlt: "Warzone Cheats banner — tactical soldier in combat gear",
 		galleryTitle: 'Warzone Cheats gallery — ESP, Aimbot and wallhack visuals',
 		ctaPrimary: 'Buy Warzone Cheats',
 		ctaSecondary: 'See all features',
@@ -17,7 +17,7 @@ export const enPages = {
 		sections: [
 			section(
 				'Why players choose Warzone cheats in 2026',
-				'Warzone rewards map awareness. Warzone Cheats combines ESP wallhack for enemy players and loot, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on raid, Resurgence, and competitive lobbies.',
+				'Warzone rewards map awareness. Warzone Cheats combines ESP wallhack for enemy players and loot, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on BR, Resurgence, and competitive lobbies.',
 				`Official seasons, patches, and anti-cheat updates come from ${EXT.warzone} and ${EXT.ricochet}. We rebuild ESP, radar, and Aimbot modules when those patches require maintenance — then post status on the <a href="/updates/">Updates page</a>.`,
 				'Licenses ship digitally after payment confirmation. Monthly ($35) and lifetime ($150) plans include Ricochet maintenance rebuilds when anti-cheat or game patches require updates.',
 				'Start with the <a href="/warzone-cheats/">Warzone cheats pillar</a>, <a href="/warzone-esp/">ESP guide</a>, <a href="/warzone-aimbot/">Aimbot controls</a>, and <a href="/warzone-cheats/">undetected status</a> pages if you are comparing tools before checkout.',
@@ -37,22 +37,22 @@ export const enPages = {
 			'Warzone ESP for Windows PC — player boxes, loot markers, and distance readouts. Part of our undetected warzone cheats for Warzone.',
 		h1: 'Warzone ESP — Player Boxes & Wallhack',
 		intro:
-			'Warzone esp visibility tools for raid and Resurgence. Read enemy squads, squads, bots, loot, and distance before you commit — toggleable warzone esp wallhack overlays bundled in our warzone cheats package.',
-		imageAlt: "Warzone ESP player boxes and distance readouts in a raid",
+			'Warzone esp visibility tools for BR and Resurgence. Read enemy squads, squads, bots, loot, and distance before you commit — toggleable warzone esp wallhack overlays bundled in our warzone cheats package.',
+		imageAlt: "Warzone ESP player boxes and distance readouts in a match",
 		galleryTitle: 'Warzone ESP overlay visuals',
 		ctaPrimary: 'Buy Warzone Cheats',
 		ctaSecondary: 'Warzone wallhack guide',
 		ctaSecondaryHref: '/warzone-esp/',
 		sections: [
 			section(
-				'What Warzone ESP solves in raids',
+				'What Warzone ESP solves in matches',
 				'Warzone maps punish incomplete information. Warzone Cheats ESP wallhack helps you spot enemy squads early, spot players before they push your angle, and mark high-value loot worth the detour.',
-				'On raid, Resurgence, and competitive lobbies, that visibility gap is often the difference between a clean third-party and a wiped squad. ESP ships bundled with radar overlays and Aimbot in one license.',
+				'On BR, Resurgence, and competitive lobbies, that visibility gap is often the difference between a clean third-party and a wiped squad. ESP ships bundled with radar overlays and Aimbot in one license.',
 				`Warzone’s live seasons and map updates are published by Activision (${EXT.warzone}). When POIs or loot rules shift, ESP categories stay useful because they track players and containers — not a single static landmark.`,
 			),
 			section(
 				'Player, boss, and loot ESP wallhack categories',
-				'Toggle enemy player outlines, boss markers, gulag cues, and loot pins so only raid-critical ESP wallhack overlays stay active during rotations.',
+				'Toggle enemy player outlines, boss markers, gulag cues, and loot pins so only match-critical ESP wallhack overlays stay active during rotations.',
 				'Distance readouts and snapline options help you control engagement range. Team and enemy colour coding supports BR matches and Resurgence lobbies alike.',
 				'Compare category detail on the <a href="/warzone-esp/">wallhack page</a> and pair visibility with the <a href="/warzone-radar-hack/">radar hack</a> for flanks outside your FOV.',
 				[
@@ -66,7 +66,7 @@ export const enPages = {
 				'Undetected ESP with Ricochet maintenance',
 				'Warzone Cheats ESP wallhack is maintained for Warzone with rebuilds after Ricochet patches. Check the <a href="/updates/">Updates page</a> before you queue — no cheat guarantees permanent undetected status.',
 				`Read ${EXT.ricochet} for how anti-cheat updates ship, then cross-check our <a href="/updates/">Ricochet bypass maintenance guide</a> after major patches.`,
-				'Checkout includes instant digital delivery for Windows 10 and 11. After purchase, follow the <a href="/setup/">Setup guide</a> and tune overlays before your first raid.',
+				'Checkout includes instant digital delivery for Windows 10 and 11. After purchase, follow the <a href="/setup/">Setup guide</a> and tune overlays before your first match.',
 			),
 			section(
 				'ESP next steps — Aimbot, pricing, and support',
@@ -92,12 +92,12 @@ export const enPages = {
 			section(
 				'Aimbot tuned for Warzone combat pace',
 				'Warzone mixes long-range AR fights with close-quarters SMG pushes. Warzone Cheats Aimbot includes smoothness, FOV, and sensitivity controls tuned for that pace — with hotkey toggles mid-match.',
-				'Bone priority and target selection options cover closest player, lowest health, or highest-threat targets during squad fights and close-range scav fights.',
+				'Bone priority and target selection options cover closest player, lowest health, or highest-threat targets during squad fights and close-range building fights.',
 				`Weapon balance and season rules change via ${EXT.warzone}. Revisit Aimbot FOV and smoothness after major combat patches so assist still matches the live TTK windows.`,
 			),
 			section(
 				'Per-weapon Aimbot profiles',
-				'Save separate Aimbot profiles for ARs, SMGs, and bolt-actions. Switch between long-range DMR fights and buildings clears without reopening menus every raid.',
+				'Save separate Aimbot profiles for ARs, SMGs, and bolt-actions. Switch between long-range DMR fights and buildings clears without reopening menus every match.',
 				'Prefer softer tracking? Read the <a href="/warzone-aimbot/">soft aim guide</a>.',
 				'Aimbot ships alongside <a href="/warzone-esp/">ESP wallhack</a> and <a href="/warzone-radar-hack/">2D radar</a> in the same Warzone Cheats license.',
 				[
@@ -136,13 +136,13 @@ export const enPages = {
 		sections: [
 			section(
 				'ESP wallhack and visibility features',
-				'Enemy player ESP wallhack, boss and gulag awareness cues, loot and container markers, distance readouts, snaplines, and toggleable ESP categories for raid-critical overlays only.',
+				'Enemy player ESP wallhack, boss and gulag awareness cues, loot and container markers, distance readouts, snaplines, and toggleable ESP categories for match-critical overlays only.',
 				'Team and enemy colour coding supports BR matches and Resurgence. Deep-dive the <a href="/warzone-esp/">ESP page</a> and <a href="/warzone-esp/">wallhack guide</a> for category-level detail.',
-				`Map and loot systems evolve with ${EXT.warzone} wipe and map updates — toggleable ESP categories keep overlays useful when POIs rotate.`,
+				`Map and loot systems evolve with ${EXT.warzone} season and map updates — toggleable ESP categories keep overlays useful when POIs rotate.`,
 			),
 			section(
 				'Radar hack and Aimbot controls',
-				'2D radar overlay with directional threat cues, configurable range for rotations and late-raid the gulag, plus Aimbot smoothness, FOV, bone priority, hotkeys, and per-weapon profiles.',
+				'2D radar overlay with directional threat cues, configurable range for rotations and late-game gulag, plus Aimbot smoothness, FOV, bone priority, hotkeys, and per-weapon profiles.',
 				'All tools share in-client toggles so you can adjust ESP, radar, and Aimbot during live Warzone sessions. See <a href="/warzone-radar-hack/">radar</a> and <a href="/warzone-aimbot/">Aimbot</a> for settings walkthroughs.',
 				'Prefer a menu-first workflow? The <a href="/warzone-cheats/">mod menu page</a> explains mid-match toggles without alt-tabbing.',
 			),
@@ -237,7 +237,7 @@ export const enPages = {
 				'Why the Updates page matters',
 				'Warzone and Ricochet receive frequent patches. Warzone Cheats publishes maintenance notes when ESP wallhack, radar, or Aimbot behavior needs a rebuild.',
 				`Use ${EXT.status} for Activision platform health and this page for Warzone Cheats build status — both matter on big update days.`,
-				'Checking this log before you queue reduces surprises after game days or seasonal launches on raid and Resurgence.',
+				'Checking this log before you queue reduces surprises after game days or seasonal launches on BR and Resurgence.',
 			),
 			section(
 				'What maintenance entries cover',
@@ -269,7 +269,7 @@ export const enPages = {
 			section(
 				'What is Warzone Cheats?',
 				'Warzone Cheats is an undetected cheat package for Warzone on Windows PC. It includes ESP wallhack, 2D radar-style awareness, and Aimbot controls with Ricochet maintenance updates.',
-				'Packages cover raid and Resurgence. Explore <a href="/features/">Features</a> for the full control list and <a href="/warzone-esp/">ESP</a> / <a href="/warzone-aimbot/">Aimbot</a> for module detail.',
+				'Packages cover BR and Resurgence. Explore <a href="/features/">Features</a> for the full control list and <a href="/warzone-esp/">ESP</a> / <a href="/warzone-aimbot/">Aimbot</a> for module detail.',
 				`Warzone itself is published by Activision (${EXT.warzone}). Cheats are third-party tools and may violate Activision's rules — use is at your own risk.`,
 			),
 			section(
@@ -359,7 +359,7 @@ export const enPages = {
 		h1: 'Warzone Wallhack — ESP Boxes & Visibility',
 		intro:
 			'Warzone wallhack ESP for Warzone — see players, loot, bosses, and containers through toggleable wallhack overlays built for BR matches and Resurgence.',
-		imageAlt: "Warzone wallhack visibility through walls in a raid",
+		imageAlt: "Warzone wallhack visibility through walls in a match",
 		galleryTitle: 'Warzone wallhack ESP gallery',
 		ctaPrimary: 'Buy Warzone Cheats',
 		ctaSecondary: 'Warzone ESP page',
@@ -373,7 +373,7 @@ export const enPages = {
 			),
 			section(
 				'Map coverage for wallhack ESP',
-				'Wallhack overlays support raid, Resurgence, and competitive lobbies with distance readouts and snaplines for engagement control.',
+				'Wallhack overlays support BR, Resurgence, and competitive lobbies with distance readouts and snaplines for engagement control.',
 				`Season maps and POI changes are announced via ${EXT.warzone}. Wallhack remains useful because it tracks entities, not fixed landmarks alone.`,
 				'Pair wallhack awareness with <a href="/warzone-radar-hack/">radar hack</a> cues for flanks during building and rooftop fights.',
 			),
@@ -400,13 +400,13 @@ export const enPages = {
 		sections: [
 			section(
 				'Why radar hack matters in Warzone',
-				'raids fights happen in three dimensions — rooftops, windows, and flanks. A 2D radar overlay shows nearby player threats outside direct line of sight so you can reposition before a third party.',
+				'BR fights happen in three dimensions — rooftops, windows, and flanks. A 2D radar overlay shows nearby player threats outside direct line of sight so you can reposition before a third party.',
 				'Warzone Cheats radar complements <a href="/warzone-esp/">ESP wallhack</a> markers during squad pushes and gulag camp fights.',
 				`Mode rules and seasonal changes come from ${EXT.warzone}. Radar range remains configurable when map scale or mobility meta shifts.`,
 			),
 			section(
 				'Configurable radar range',
-				'Adjust radar range for early rotations versus tight gulag holds. Directional cues highlight flanks during building clears and flank pushes across raid and Resurgence.',
+				'Adjust radar range for early rotations versus tight gulag holds. Directional cues highlight flanks during building clears and flank pushes across BR and Resurgence.',
 				'Toggle radar alongside ESP and Aimbot with in-client hotkeys during live matches — see the <a href="/warzone-cheats/">mod menu</a> page.',
 				'Combat follow-up lives on <a href="/warzone-aimbot/">Aimbot</a> when you convert radar info into a fight.',
 			),
@@ -468,7 +468,7 @@ export const enPages = {
 				'Why warzone cheats buyers choose Warzone Cheats in 2026',
 				'2026 seasons bring new maps, weapons, and Ricochet updates. Warzone Cheats bundles ESP wallhack, radar hack, and Aimbot with active maintenance — not a stale prior-year build.',
 				`Track official season messaging on ${EXT.warzone}, then use our <a href="/updates/">Updates log</a> for product rebuild timing.`,
-				'Monthly ($35) and lifetime ($150) plans cover raid and Resurgence loops — see <a href="/pricing/">Pricing</a>.',
+				'Monthly ($35) and lifetime ($150) plans cover BR and Resurgence loops — see <a href="/pricing/">Pricing</a>.',
 			),
 			section(
 				'Full feature stack for 2026 buyers',
@@ -490,7 +490,7 @@ export const enPages = {
 			'Warzone cheats for Windows PC: undetected ESP wallhack, radar hack, and Aimbot with Ricochet maintenance. Compare warzone cheats options and buy the full package.',
 		h1: 'Warzone Cheats — Undetected ESP, Aimbot & Wallhack',
 		intro:
-			'Warzone cheats for raid and Resurgence combine ESP wallhack visibility, 2D radar-style threat cues, and Aimbot controls in one undetected Windows PC license — maintained after Ricochet patches. This is the pillar guide for warzone cheats in 2026.',
+			'Warzone cheats for BR and Resurgence combine ESP wallhack visibility, 2D radar-style threat cues, and Aimbot controls in one undetected Windows PC license — maintained after Ricochet patches. This is the pillar guide for warzone cheats in 2026.',
 		imageAlt: "Warzone Cheats product page — ESP, aimbot, and radar",
 		galleryTitle: 'Warzone cheats gallery — ESP, Aimbot, wallhack',
 		ctaPrimary: 'Buy Warzone Cheats',
@@ -500,7 +500,7 @@ export const enPages = {
 			section(
 				'What Warzone cheats include in 2026',
 				'Players searching for Warzone cheats usually want visibility and combat tools without stacking separate downloads. Warzone Cheats bundles player ESP wallhack, loot markers, 2D radar overlays, and configurable Aimbot in one maintained package — the same toolkit often called warzone cheats.',
-				'Coverage spans raid and Resurgence with in-client toggles for live matches. Monthly ($35) and lifetime ($150) licenses unlock the full stack.',
+				'Coverage spans BR and Resurgence with in-client toggles for live matches. Monthly ($35) and lifetime ($150) licenses unlock the full stack.',
 				`Official game updates come from ${EXT.warzone}; our hacks package tracks those releases via the <a href="/updates/">Updates page</a>. Cross-check platform health on ${EXT.status} before patch-day queues.`,
 			),
 			section(
@@ -511,7 +511,7 @@ export const enPages = {
 			),
 			section(
 				'Warzone cheats vs single-feature tools',
-				'Standalone hacks often cover only wallhack or only aim assist. Warzone Cheats maps the full raid loop: read enemy squads, track bosses and containers, spot flanks on radar, and tune Aimbot per weapon class.',
+				'Standalone hacks often cover only wallhack or only aim assist. Warzone Cheats maps the full BR loop: read enemy squads, track bosses and containers, spot flanks on radar, and tune Aimbot per weapon class.',
 				'Compare the <a href="/warzone-esp/">ESP</a>, <a href="/warzone-aimbot/">Aimbot</a>, and <a href="/features/">Features</a> pages — or review <a href="/pricing/">Pricing</a> for monthly and lifetime licenses.',
 				'Related landings: <a href="/setup/">cheat download</a>, <a href="/warzone-cheats/">mod menu</a>, <a href="/warzone-aimbot/">aimbot</a>, <a href="/warzone-esp/">ESP</a>.',
 			),
@@ -638,7 +638,7 @@ export const enPages = {
 			section(
 				'What makes the Warzone cheats in 2026',
 				'The Warzone cheats combine active Ricochet maintenance, a full ESP wallhack and radar stack, configurable Aimbot, and clear update communication — not a stale build from a prior season.',
-				'Warzone Cheats covers raid and Resurgence with in-client toggles and post-patch rebuilds.',
+				'Warzone Cheats covers BR and Resurgence with in-client toggles and post-patch rebuilds.',
 				`Verify the live game is healthy via ${EXT.status}, then confirm our <a href="/updates/">Updates</a> note before you judge any package “best.”`,
 			),
 			section(
@@ -676,7 +676,7 @@ export const enPages = {
 			),
 			section(
 				'Aimbot hack controls and hotkeys',
-				'Bone priority options cover head, chest, or dynamic targets. Hotkeys enable or disable aimbot hack mid-match without opening menus during rotations or late-raid the gulag.',
+				'Bone priority options cover head, chest, or dynamic targets. Hotkeys enable or disable aimbot hack mid-match without opening menus during rotations or late-game gulag.',
 				'Per-weapon profile slots separate long-range AR tuning from close-quarters SMG settings.',
 				`Balance patches from ${EXT.warzone} can change ideal FOV — retune after major weapon updates.`,
 			),
@@ -694,7 +694,7 @@ export const enPages = {
 			'Warzone ESP hack with player boxes and loot markers for Windows PC. Undetected warzone cheats with — see overlays and buy.',
 		h1: 'Warzone ESP Hack — Player Boxes Guide',
 		intro:
-			'Warzone ESP hack overlays for Warzone — player outlines, boss threat cues, loot and container markers with distance readouts across raid and Resurgence.',
+			'Warzone ESP hack overlays for Warzone — player outlines, boss threat cues, loot and container markers with distance readouts across BR and Resurgence.',
 		imageAlt: "Warzone ESP hack boxes and loot markers",
 		galleryTitle: 'Warzone ESP hack gallery',
 		ctaPrimary: 'Buy Warzone Cheats',
@@ -708,8 +708,8 @@ export const enPages = {
 				'Canonical visibility guide: <a href="/warzone-esp/">Warzone ESP</a>. Wallhack wording: <a href="/warzone-esp/">wallhack</a>.',
 			),
 			section(
-				'ESP hack categories for raids',
-				'Toggle player ESP hack, loot markers, chest pins, and vehicle cues independently so only raid-critical overlays stay active during rotations.',
+				'ESP hack categories for matches',
+				'Toggle player ESP hack, loot markers, chest pins, and vehicle cues independently so only match-critical overlays stay active during rotations.',
 				'Team and enemy colour coding supports BR matches and Resurgence.',
 				`POI and loot changes publish through ${EXT.activision} — keep categories toggled to what the current map rewards.`,
 			),
@@ -738,7 +738,7 @@ export const enPages = {
 				'What Warzone unlock all usually means',
 				'Warzone unlock all searches often refer to instant access to weapons, camos, skins, or battle pass tiers. Those claims differ from visibility and combat-assist tools like ESP wallhack and Aimbot.',
 				'Warzone Cheats focuses on in-match awareness — player ESP, loot markers, radar overlays, and configurable Aimbot — not account-wide cosmetic unlocks.',
-				`Cosmetics and wipe progression items are sold through ${EXT.warzone}. Be wary of unlock-all downloads that promise free skins — they are often scams.`,
+				`Cosmetics and Battle Pass items are sold through ${EXT.warzone}. Be wary of unlock-all downloads that promise free skins — they are often scams.`,
 			),
 			section(
 				'Visibility tools vs unlock-all claims',

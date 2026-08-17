@@ -13,24 +13,24 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "warzone-patch-notes-guide",
 		title: "How to Read Warzone Patch Notes",
-		metaDescription: "Learn how Warzone patch notes change squad loadouts, ammo economy, and maps. What to do after Ricochet and wipe updates in 2026.",
+		metaDescription: "Learn how Warzone patch notes change squad loadouts, ammo economy, and maps. What to do after Ricochet and season updates in 2026.",
 		h1: "How to Read Warzone Patch Notes Without Guessing",
-		intro: "When Activision drops a patch, most players skim the headline and queue anyway. That is how you walk into Verdansk with the wrong ammo and a gun that just lost its armor pen. Here is a calmer way to read Warzone patch notes so your next raid still makes sense.",
-		keywords: ["warzone patch notes","warzone season update","ricochet patch","pmc loadout","warzone intel"],
-		imageAlt: "Player reviewing Warzone patch notes before a squad raid",
+		intro: "When Activision drops a patch, most players skim the headline and queue anyway. That is how you walk into Verdansk with the wrong ammo and a gun that just lost its armor pen. Here is a calmer way to read Warzone patch notes so your next match still makes sense.",
+		keywords: ["warzone patch notes","warzone season update","ricochet patch","warzone loadout","warzone intel"],
+		imageAlt: "Player reviewing Warzone patch notes before a squad match",
 		sections: [
 			{
 				h2: "What actually matters in a Warzone patch?",
 				paragraphs: [
 					"Official notes live on <a href=\"https://www.callofduty.com/warzone\" target=\"_blank\" rel=\"noopener noreferrer\">Warzone</a>. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how I kill armored squads? Does this change what loot is worth looting? Does this change which gulag or map I should run tonight?",
-					"Ammo tables, armor classes, boss spawn rates, and trader unlocks move the real economy. A small recoil tweak on an M4 looks boring in a video title, but it quietly reshapes mid-range fights on Rebirth and Interchange. Cosmetic lines and UI polish almost never decide whether you survive buildings.",
+					"Ammo tables, armor plates, contract spawn rates, and loadout unlocks move the real economy. A small recoil tweak on an M4 looks boring in a video title, but it quietly reshapes mid-range fights on Rebirth and Rebirth. Cosmetic lines and UI polish almost never decide whether you survive buildings.",
 					"If you also run third-party tools, separate game balance from anti-cheat maintenance. After a <a href=\"https://www.ricochet.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Ricochet</a> or client update, check our <a href=\"/updates/\">Warzone Cheats status page</a> before you blame your own aim.",
 				],
 			},
 			{
 				h2: "Buffs, nerfs, and removed items — a simple framework",
 				paragraphs: [
-					"When an item is removed from raid loot pools, delete it from your mental shopping list the same day. Heavy nerfs demote a weapon from “default kit” to “situational.” Light nerfs are fine if you already shoot cleaner than most lobbies. Buffs deserve a short test block — ten focused raids — before you rebuild your entire stash around them.",
+					"When an item is removed from ground loot pools, delete it from your mental shopping list the same day. Heavy nerfs demote a weapon from “default kit” to “situational.” Light nerfs are fine if you already shoot cleaner than most lobbies. Buffs deserve a short test block — ten focused matches — before you rebuild your entire loadout around them.",
 					"Armor and ammunition changes usually matter more than a single gun’s recoil number. If a popular round loses penetration against class-five plates, your Verdansk push into three-stacks suddenly needs a different mag. Pair this reading habit with our <a href=\"/blog/warzone-weapon-tier-list/\">Warzone weapon tier list</a> so you are not chasing streamer kits that ignore your budget.",
 				],
 			},
@@ -38,8 +38,8 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "How patches reshuffle loadouts and map plans",
 				paragraphs: [
 					"When mid-range rifles feel strong, prioritize optics and ammo that win 40–70 meter peeks. When healing items get tighter, play more conservatively near the gulag and avoid ego third-parties. When a map POI shifts — new locked rooms, moved spawns, boss path changes — rewrite your first three minutes on that map before you farm it for quests.",
-					"Keep cosmetic shop chatter out of patch-day focus. Skin talk is fun; time-to-kill and gulag camping patterns are what get you killed. For aggressive Scav timing after a meta shift, see our <a href=\"/blog/warzone-Resurgence-aggressive-strategies/\">Resurgence strategies</a>.",
-					"On big mornings, confirm <a href=\"https://support.activision.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Warzone Support</a> looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your stash “buy list,” play five intentional raids, and only then lock a new main kit.",
+					"Keep cosmetic shop chatter out of patch-day focus. Skin talk is fun; time-to-kill and gulag camping patterns are what get you killed. For aggressive Resurgence timing after a meta shift, see our <a href=\"/blog/warzone-Resurgence-aggressive-strategies/\">Resurgence strategies</a>.",
+					"On big mornings, confirm <a href=\"https://support.activision.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Warzone Support</a> looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your loadout “buy list,” play five focused matches, and only then lock a new main kit.",
 				],
 			}
 		],
@@ -57,30 +57,30 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "warzone-skin-leaks-guide",
 		title: "Warzone Cosmetics & Skin Leaks: What Is Worth Buying",
-		metaDescription: "Sensible advice on Warzone cosmetics and skin leaks — what to buy on the Flea Market, what to skip, and how looks affect raid readability.",
+		metaDescription: "Sensible advice on Warzone cosmetics and skin leaks — what to buy on the store, what to skip, and how looks affect match readability.",
 		h1: "Warzone Cosmetics and Skin Leaks: Buy Smart, Not Impulsive",
-		intro: "Leaks make every wipe feel like a fashion drop. Before you dump roubles into another loud outfit, decide whether the skin helps you play Warzone — or just looks cool in a screenshot.",
+		intro: "Leaks make every season feel like a fashion drop. Before you dump COD Points into another loud outfit, decide whether the skin helps you play Warzone — or just looks cool in a screenshot.",
 		keywords: ["warzone skins","warzone cosmetics","flea market skins","warzone apparel","warzone intel"],
 		imageAlt: "Warzone character cosmetics and gear appearance options",
 		sections: [
 			{
 				h2: "Why most impulse cosmetic buys feel bad after a week",
 				paragraphs: [
-					"Shop rotations and official apparel come from <a href=\"https://www.callofduty.com/warzone\" target=\"_blank\" rel=\"noopener noreferrer\">Warzone</a>. Leaks are entertainment, not a shopping list. Many players spend hard-earned flea money the night before a wipe, then realize they still need meds, ammo, and a backup kit.",
-					"Controversial but useful: most cosmetics do not raise your survival rate. Some loud patterns even make you easier to spot in bushes on Rebirth or in dark Interchange hallways. Pros often prefer quieter silhouettes so enemy outlines stay readable in chaotic peeks.",
+					"Shop rotations and official apparel come from <a href=\"https://www.callofduty.com/warzone\" target=\"_blank\" rel=\"noopener noreferrer\">Warzone</a>. Leaks are entertainment, not a shopping list. Many players spend hard-earned store cash the night before a season drop, then realize they still need meds, ammo, and a backup kit.",
+					"Controversial but useful: most cosmetics do not raise your survival rate. Some loud patterns even make you easier to spot in bushes on Rebirth or in dark downtown buildings. Pros often prefer quieter silhouettes so enemy outlines stay readable in chaotic peeks.",
 				],
 			},
 			{
 				h2: "A simple worth-it checklist for Warzone cosmetics",
 				paragraphs: [
-					"Buy if you will still wear it in ninety days and it stays readable in night raids. Pause if it overlaps three outfits you already own. Skip FOMO bundles packed with fillers you will never equip. Always keep a rouble floor for ammo and healing before fashion.",
-					"Do the math on bundles. Paying extra for two fillers you hate is worse than waiting for a single piece on the Flea Market. If a leak only hypes one jacket, wait for confirmation instead of panic-buying a full set.",
+					"Buy if you will still wear it in ninety days and it stays readable in night matches. Pause if it overlaps three outfits you already own. Skip FOMO bundles packed with fillers you will never equip. Always keep a cash floor for ammo and healing before fashion.",
+					"Do the math on bundles. Paying extra for two fillers you hate is worse than waiting for a single piece on the store. If a leak only hypes one jacket, wait for confirmation instead of panic-buying a full set.",
 				],
 			},
 			{
 				h2: "How to use leaks without getting played",
 				paragraphs: [
-					"Treat late-wipe leak waves as theme previews, not release dates. Decide a budget before something hits the store, not during the five-minute panic. A quiet daily habit works: open the shop for one minute, check your wishlist, then leave.",
+					"Treat late-season leak waves as theme previews, not release dates. Decide a budget before something hits the store, not during the five-minute panic. A quiet daily habit works: open the shop for one minute, check your wishlist, then leave.",
 					"For competitive readability tips that actually affect fights, pair this with our <a href=\"/blog/warzone-pro-settings-guide/\">pro settings guide</a>. Looking clean matters less than seeing the other squad first.",
 				],
 			}
@@ -99,17 +99,17 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "warzone-weapon-tier-list",
 		title: "Warzone Weapon Tier List: Best Guns for Raids",
-		metaDescription: "A practical Warzone weapon tier list for BR and Resurgence raids — ARs, SMGs, bolt-actions, ammo, and when each gun actually wins fights.",
+		metaDescription: "A practical Warzone weapon tier list for BR and Resurgence matches — ARs, SMGs, bolt-actions, ammo, and when each gun actually wins fights.",
 		h1: "Warzone Weapon Tier List: What Wins Raids in 2026",
-		intro: "Creator tier lists love flashy guns. Warzone rewards expected value: armor penetration, recoil you can control, and a kit you can rebuild after you die. Here is how to rank weapons for real raids — not highlight reels.",
+		intro: "Creator tier lists love flashy guns. Warzone rewards expected value: armor penetration, recoil you can control, and a kit you can rebuild after you die. Here is how to rank weapons for real matches — not highlight reels.",
 		keywords: ["warzone weapon tier list","best warzone guns","warzone meta weapons","m4a1 warzone","warzone intel"],
 		imageAlt: "Warzone weapons laid out for a squad loadout comparison",
 		sections: [
 			{
 				h2: "How should you define S-tier in Warzone?",
 				paragraphs: [
-					"S-tier means the best expected value across a hundred squad fights on maps like Verdansk, Rebirth, and Interchange — not the gun that looks strongest in a controlled offline range. Mid-range rifles win many of the fights that actually decide raids: forty to seventy meters through doorways, parking lots, and tree lines.",
-					"Shotguns still own tight interiors. Bolt-actions still punish long peeks on Shoreline and Lighthouse. Everything between those extremes is usually assault-rifle country, which is why a well-built M4A1 or similar 5.56 platform stays relevant wipe after wipe when ammo and mods are available.",
+					"S-tier means the best expected value across a hundred squad fights on maps like Verdansk, Rebirth, and Caldera — not the gun that looks strongest in a controlled offline range. Mid-range rifles win many of the fights that actually decide matches: forty to seventy meters through doorways, parking lots, and tree lines.",
+					"Shotguns still own tight interiors. Bolt-actions still punish long peeks on Rebirth and downtown. Everything between those extremes is usually assault-rifle country, which is why a well-built M4A1 or similar 5.56 platform stays relevant season after season when ammo and mods are available.",
 					"Always re-check live values after patches on <a href=\"https://www.callofduty.com/warzone\" target=\"_blank\" rel=\"noopener noreferrer\">Warzone</a>. The hierarchy logic stays useful even when numbers nudge.",
 				],
 			},
@@ -123,7 +123,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Loadout pairings and common mistakes",
 				paragraphs: [
-					"A durable kit is usually a reliable mid rifle, a close-range option for buildings or buildings, enough meds, and an armor class you can replace after deaths. In Resurgence, that same spine supports the aggression patterns in our <a href=\"/blog/warzone-Resurgence-aggressive-strategies/\">Scav strategies article</a>.",
+					"A durable kit is usually a reliable mid rifle, a close-range option for buildings or buildings, enough meds, and armor plates you can replace after deaths. In Resurgence, that same spine supports the aggression patterns in our <a href=\"/blog/warzone-Resurgence-aggressive-strategies/\">Resurgence strategies article</a>.",
 					"Common mistakes: full-spraying from eighty meters, re-peeking the same pixel, swapping to an SMG at forty meters out of habit, and never practicing controlled bursts offline. If you also use aim-assist tooling, lock sensitivity and fundamentals first, then review <a href=\"/warzone-aimbot/\">Warzone aimbot settings</a>.",
 				],
 			}
@@ -136,34 +136,34 @@ export const blogPosts: BlogPostDefinition[] = [
 		imageKey: "battleRoyaleCombat",
 		published: "2026-07-22",
 		updated: "2026-08-13",
-		category: "Scav Runs",
+		category: "Resurgence",
 		featured: true,
 		translations: {
 		en: {
 		slug: "warzone-Resurgence-aggressive-strategies",
-		title: "Warzone Scav Run Strategies That Actually Print Loot",
-		metaDescription: "Five aggressive but smart Warzone Scav strategies — timings, the gulag, third-parties, and how to leave raids with gear instead of empty pockets.",
-		h1: "Warzone Scav Run Strategies: How to Leave With Gear",
-		intro: "Passive Scav players wait behind a bush while two squad teams erase each other, then spray into the mess and die. Strong Resurgence manufacture a short advantage, grab what matters, and gulag before the map collapses on you.",
-		keywords: ["warzone scav run","scav strategies","warzone scav","warzone the gulag","warzone esp"],
-		imageAlt: "Scav player moving toward gulag with loot in Warzone",
+		title: "Warzone Resurgence Strategies That Actually Print Loot",
+		metaDescription: "Five aggressive but smart Warzone Resurgence strategies — timings, the gulag, third-parties, and how to leave matches with gear instead of empty pockets.",
+		h1: "Warzone Resurgence Strategies: How to Leave With Gear",
+		intro: "Passive Resurgence players wait behind a bush while two squad teams erase each other, then spray into the mess and die. Strong Resurgence manufacture a short advantage, grab what matters, and gulag before the map collapses on you.",
+		keywords: ["warzone resurgence","resurgence strategies","warzone resurgence","warzone the gulag","warzone esp"],
+		imageAlt: "Player moving toward gulag with loot in Warzone",
 		sections: [
 			{
 				h2: "Why so many Resurgence feel soft",
 				paragraphs: [
-					"Scav kits are random, timers are limited, and bots can turn on you. Waiting forever for a “perfect” third-party often means you arrive late to a wiped lobby with nothing left. Information tools like <a href=\"/warzone-esp/\">Warzone ESP</a> can help you see fights early — but you still need an exit plan.",
+					"Loadouts at drop are random, timers are limited, and bots can turn on you. Waiting forever for a “perfect” third-party often means you arrive late to a wiped lobby with nothing left. Information tools like <a href=\"/warzone-esp/\">Warzone ESP</a> can help you see fights early — but you still need an exit plan.",
 					"Decide your gulag before you swing. Take a clear damage window, grab high-value loot, then leave. The usual third-party clock in hot POIs is only a few seconds long once gunfire starts.",
 				],
 			},
 			{
 				h2: "Five aggressive habits that still work",
 				paragraphs: [
-					"Pre-aim common corners on Verdansk buildings and Interchange tech stores so you clear angles in under a second. Enter rooms with an exit path, not a panic turn. Fake one side of a doorway, then finish from the safer angle when their magazine is weak.",
-					"Stay close to hard cover while you move — never more than a short sprint from a wall or vehicle. Pressure late rotates near the gulag when players are silhouetted and greedy. Mode rules evolve with <a href=\"https://www.callofduty.com/warzone\" target=\"_blank\" rel=\"noopener noreferrer\">Warzone</a> wipes; the geometry of first-shot advantage does not.",
+					"Pre-aim common corners on Verdansk buildings and Superstore so you clear angles in under a second. Enter rooms with an exit path, not a panic turn. Fake one side of a doorway, then finish from the safer angle when their magazine is weak.",
+					"Stay close to hard cover while you move — never more than a short sprint from a wall or vehicle. Pressure late rotates near the gulag when players are silhouetted and greedy. Mode rules evolve with <a href=\"https://www.callofduty.com/warzone\" target=\"_blank\" rel=\"noopener noreferrer\">Warzone</a> seasons; the geometry of first-shot advantage does not.",
 				],
 			},
 			{
-				h2: "Warmup checklist before you queue a Scav",
+				h2: "Warmup checklist before you queue Resurgence",
 				paragraphs: [
 					"Know your map’s main the gulag, bring a simple med plan, and pick two POIs with cover ladders instead of open fields. Pair this article with <a href=\"/blog/warzone-loot-routes-guide/\">loot routes</a>, <a href=\"/blog/warzone-weapon-tier-list/\">weapon tiers</a>, and <a href=\"/blog/warzone-warmup-maps-ranked/\">warmup routines</a>.",
 					"Try one session where you force early contact only when you have armor and a usable gun — then track whether you gulaged before the third-party window closed.",
@@ -184,16 +184,16 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "warzone-tournament-meta-guide",
 		title: "What Competitive Warzone Players Optimize For",
-		metaDescription: "What strong Warzone competitors optimize — spawn plans, loadouts, mid-raid habits, and which tournament habits help normal squad queues.",
+		metaDescription: "What strong Warzone competitors optimize — spawn plans, loadouts, mid-match habits, and which tournament habits help normal squad queues.",
 		h1: "What Competitive Warzone Players Optimize For",
-		intro: "Tournament winners and high-level duos are not lucky spawn gods. They optimize expected value: safer loot paths, cleaner mid-raid habits, and fights they choose on purpose. Here is what translates into your normal Warzone queues.",
-		keywords: ["warzone competitive","warzone tournament","warzone meta","pmc habits","warzone intel"],
-		imageAlt: "Competitive Warzone players reviewing raid strategy",
+		intro: "Tournament winners and high-level duos are not lucky spawn gods. They optimize expected value: safer loot paths, cleaner mid-match habits, and fights they choose on purpose. Here is what translates into your normal Warzone queues.",
+		keywords: ["warzone competitive","warzone tournament","warzone meta","squad habits","warzone intel"],
+		imageAlt: "Competitive Warzone players reviewing match strategy",
 		sections: [
 			{
 				h2: "Watch competitive VODs like a coach, not a fan",
 				paragraphs: [
-					"Start with schedules and film from <a href=\"https://www.callofduty.com/warzone\" target=\"_blank\" rel=\"noopener noreferrer\">Warzone</a> community events or trusted creators, then tag habits instead of memorizing a single POI name. Note the landing plan, first heal, first rotate, first voluntary fight, and the key late-raid decision.",
+					"Start with schedules and film from <a href=\"https://www.callofduty.com/warzone\" target=\"_blank\" rel=\"noopener noreferrer\">Warzone</a> community events or trusted creators, then tag habits instead of memorizing a single POI name. Note the landing plan, first heal, first rotate, first voluntary fight, and the key late-game decision.",
 					"Five clear timestamps beat a full passive watch. You are stealing decision patterns, not cosplaying someone else’s spawn.",
 				],
 			},
@@ -205,10 +205,10 @@ export const blogPosts: BlogPostDefinition[] = [
 				],
 			},
 			{
-				h2: "What actually translates to normal raids",
+				h2: "What actually translates to normal matches",
 				paragraphs: [
-					"Steal loot-timer discipline, a simple loadout spine, earlier rotates, and selective fights. Do not blindly mirror a trio drop when you solo queue. Winners rotate early enough to choose sides — the same idea shows up in our <a href=\"/blog/warzone-Resurgence-aggressive-strategies/\">Scav aggression guide</a>.",
-					"Try this: watch fifteen minutes of a strong VOD with five timestamps. Steal one mid-raid habit only. Run it for a six-raid squad block before adding another.",
+					"Steal loot-timer discipline, a simple loadout spine, earlier rotates, and selective fights. Do not blindly mirror a trio drop when you solo queue. Winners rotate early enough to choose sides — the same idea shows up in our <a href=\"/blog/warzone-Resurgence-aggressive-strategies/\">Resurgence aggression guide</a>.",
+					"Try this: watch fifteen minutes of a strong VOD with five timestamps. Steal one mid-match habit only. Run it for a six-match squad block before adding another.",
 				],
 			}
 		],
@@ -226,7 +226,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "warzone-loot-routes-guide",
 		title: "Warzone Loot Routes That Leave Spawn Ready to Fight",
-		metaDescription: "High-percentage Warzone loot routes for Verdansk, Rebirth, and Interchange — how to leave spawn with guns, armor, and meds that win mid-raid fights.",
+		metaDescription: "High-percentage Warzone loot routes for Verdansk, Rebirth, and Caldera — how to leave spawn with guns, armor, and meds that win mid-match fights.",
 		h1: "Warzone Loot Routes: Leave Spawn Ready to Fight",
 		intro: "Winning in Warzone starts before the first gunfight. Random looting gets you killed with a pistol and no meds. These route habits consistently convert a spawn into a kit you can actually fight with.",
 		keywords: ["warzone loot routes","customs loot path","interchange loot","warzone spawn guide","warzone esp"],
@@ -235,7 +235,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Why early inventory is the real bottleneck",
 				paragraphs: [
-					"Many early raid deaths happen because players loot like tourists. Strong players treat the first ninety seconds like a shopping list: usable gun, enough ammo, basic armor, and a heal. Drop spot matters less than sequence — a mediocre POI with discipline beats a stacked landmark with panic looting.",
+					"Many early match deaths happen because players loot like tourists. Strong players treat the first ninety seconds like a shopping list: usable gun, enough ammo, basic armor, and a heal. Drop spot matters less than sequence — a mediocre POI with discipline beats a stacked landmark with panic looting.",
 					"Secure a primary weapon and meds before hunting kills. Early ego chases are how hot-spawn players stay broke.",
 				],
 			},
@@ -243,13 +243,13 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Three route archetypes that keep printing gear",
 				paragraphs: [
 					"Contested edge POI: land outer loot, snake inward, leave before late third parties. Uncontested chain: sacrifice early fights for a fuller kit by minute three. Mid-map surge: vacuum piles ninety to one hundred fifty seconds after hot spawns empty out.",
-					"Timing targets help: first gun quickly, clear a cluster, grab heals, then upgrade or leave. Slot priority is usually gun, ammo, armor, meds, then flex loot. POI names shift with <a href=\"https://www.callofduty.com/warzone\" target=\"_blank\" rel=\"noopener noreferrer\">Warzone</a> wipes — keep the geometry, not just the landmark brand.",
+					"Timing targets help: first gun quickly, clear a cluster, grab heals, then upgrade or leave. Slot priority is usually gun, ammo, armor, meds, then flex loot. POI names shift with <a href=\"https://www.callofduty.com/warzone\" target=\"_blank\" rel=\"noopener noreferrer\">Warzone</a> seasons — keep the geometry, not just the landmark brand.",
 				],
 			},
 			{
 				h2: "Convert a strong spawn into a win",
 				paragraphs: [
-					"Pair these routes with <a href=\"/blog/warzone-Resurgence-aggressive-strategies/\">Scav aggression</a> and <a href=\"/blog/warzone-weapon-tier-list/\">weapon tiers</a>. Leave spawn rich so mid-raid becomes a skill check instead of a scavenger panic.",
+					"Pair these routes with <a href=\"/blog/warzone-Resurgence-aggressive-strategies/\">Resurgence aggression</a> and <a href=\"/blog/warzone-weapon-tier-list/\">weapon tiers</a>. Leave spawn rich so mid-match becomes a skill check instead of a loot panic.",
 					"If you practice with loot markers, read <a href=\"/warzone-esp/\">Warzone ESP</a> for category toggles — then still run the timer so your habits stay sharp without overlays.",
 				],
 			}
@@ -277,8 +277,8 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Visibility and performance before fancy numbers",
 				paragraphs: [
-					"If your frame rate collapses in Streets of Warzone or Interchange interiors, no sensitivity tip will save you. Prioritize a stable FPS and readable shadows over maximum eye candy. Many strong players lower clutter so squad silhouettes pop sooner in tree lines and warehouse lighting.",
-					"Test changes in offline mode or a quiet Scav before locking them for serious BR matches. Your eyes adapt in a few sessions — give settings that long before declaring them useless.",
+					"If your frame rate collapses in downtown Verdansk or downtown interiors, no sensitivity tip will save you. Prioritize a stable FPS and readable shadows over maximum eye candy. Many strong players lower clutter so squad silhouettes pop sooner in tree lines and warehouse lighting.",
+					"Test changes in offline mode or a quiet Resurgence lobby before locking them for serious BR matches. Your eyes adapt in a few sessions — give settings that long before declaring them useless.",
 				],
 			},
 			{
@@ -291,7 +291,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Audio cues that win the gulag",
 				paragraphs: [
-					"Footsteps, magazine reloads, and gulag buzzing often matter more than a tiny graphics slider. Use headphones, keep voice chat from drowning game audio, and learn the sound difference between a scav AI shuffle and a player squad push.",
+					"Footsteps, magazine reloads, and gulag buzzing often matter more than a tiny graphics slider. Use headphones, keep voice chat from drowning game audio, and learn the sound difference between a bot shuffle and a player squad push.",
 					"Settings are leverage, not a cheat code. Pair them with map knowledge from our <a href=\"/blog/warzone-loot-routes-guide/\">loot routes</a> article so you know where those sounds are coming from.",
 				],
 			}
@@ -313,11 +313,11 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "A short Warzone warmup routine before BR matches — aim, peeks, audio focus, and what to practice offline so your first fight is not your warmup.",
 		h1: "Warzone Warmup Routine Before You Queue squad",
 		intro: "Queuing cold into buildings or buildings is how you donate a kit. A short Warzone warmup — even ten to fifteen minutes — makes your first real fight feel like your third.",
-		keywords: ["warzone warmup","warzone aim practice","pmc warmup routine","warzone offline practice","warzone intel"],
-		imageAlt: "Player warming up aim before an Warzone squad raid",
+		keywords: ["warzone warmup","warzone aim practice","warmup routine","warzone offline practice","warzone intel"],
+		imageAlt: "Player warming up aim before a Warzone squad match",
 		sections: [
 			{
-				h2: "Why your first raid should not be the warmup",
+				h2: "Why your first match should not be the warmup",
 				paragraphs: [
 					"Most players boot the game, slap on a kit, and die to the first clean peeker. Hands are cold, audio is not dialed, and map timing feels off. Treat warmup as part of the session, not optional fluff.",
 					"Offline practice, shooting range habits, and a couple of low-stakes Resurgence exist so your expensive squad kit is not the experiment.",
@@ -326,14 +326,14 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "A simple 15-minute routine that scales",
 				paragraphs: [
-					"Minutes 1–5: tracking and short bursts on a range or offline bots. Minutes 6–10: peek practice on common angles — jiggle, counter-strafe, pre-aim head height. Minutes 11–15: one focused Scav or offline fight block where you only work one habit, like holding an gulag or clearing a room.",
+					"Minutes 1–5: tracking and short bursts on a range or offline bots. Minutes 6–10: peek practice on common angles — jiggle, counter-strafe, pre-aim head height. Minutes 11–15: one focused Resurgence game or offline fight block where you only work one habit, like holding an gulag or clearing a room.",
 					"Keep the routine identical for a week so improvements are measurable. Rotate maps later — Verdansk one day, Rebirth the next — after the habit sticks.",
 				],
 			},
 			{
 				h2: "What to do right before you ready up",
 				paragraphs: [
-					"Check stash meds and ammo, confirm your map the gulag, and skim <a href=\"/updates/\">cheat status</a> if you use overlays after a patch. Pair warmup with <a href=\"/blog/warzone-pro-settings-guide/\">settings</a> and <a href=\"/blog/warzone-weapon-tier-list/\">weapon tiers</a> so you are not reinventing the kit every night.",
+					"Check loadout meds and ammo, confirm your map the gulag, and skim <a href=\"/updates/\">cheat status</a> if you use overlays after a patch. Pair warmup with <a href=\"/blog/warzone-pro-settings-guide/\">settings</a> and <a href=\"/blog/warzone-weapon-tier-list/\">weapon tiers</a> so you are not reinventing the kit every night.",
 					"If the first two squad deaths feel mechanical, stop stacking kits and repeat five minutes of peek practice. Ego queueing while tilted is not a strategy.",
 				],
 			}
@@ -362,7 +362,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "What do people mean when they say warzone cheats?",
 				paragraphs: [
 					"In plain language, warzone cheats are third-party tools that add information or aim assistance on top of the Warzone client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for firefights. One license should cover that loop instead of forcing you to juggle separate downloads.",
-					"Searchers also say “warzone cheats,” “eft hacks,” or “warzone wallhack.” Those phrases usually point at the same intent: survive raids with better reads. Start at our <a href=\"/warzone-cheats/\">warzone cheats pillar</a> if you want the product overview without the long essay.",
+					"Searchers also say “warzone cheats,” “warzone hacks,” or “warzone wallhack.” Those phrases usually point at the same intent: survive matches with better reads. Start at our <a href=\"/warzone-cheats/\">warzone cheats pillar</a> if you want the product overview without the long essay.",
 				],
 			},
 			{
@@ -383,7 +383,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "How to buy and set up without wasting a night",
 				paragraphs: [
 					"Compare monthly and lifetime on <a href=\"/pricing/\">Pricing</a>, then follow <a href=\"/setup/\">Setup</a> after delivery. Keep your order ID ready for <a href=\"/support/\">Support</a>. If you are still shopping, the <a href=\"/blog/warzone-cheats-buyers-guide/\">buyers guide</a> lists the checklist we wish every shopper used.",
-					"Warzone Cheats is built for Windows PC BR and Resurgence play. It will not replace map knowledge — it amplifies the reads you already practice in raids.",
+					"Warzone Cheats is built for Windows PC BR and Resurgence play. It will not replace map knowledge — it amplifies the reads you already practice in matches.",
 				],
 			}
 		],
@@ -404,7 +404,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "What to check before you buy warzone cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.",
 		h1: "Escape from Warzone Cheats: What to Check Before You Buy",
 		intro: "Buying warzone cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.",
-		keywords: ["warzone cheats","warzone cheats buyers guide","buy warzone cheats","undetected eft cheats","warzone pricing"],
+		keywords: ["warzone cheats","warzone cheats buyers guide","buy warzone cheats","undetected warzone cheats","warzone pricing"],
 		imageAlt: "Checklist for buying Warzone cheats safely",
 		sections: [
 			{
@@ -415,7 +415,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				],
 			},
 			{
-				h2: "Feature checklist that matches real Warzone raids",
+				h2: "Feature checklist that matches real Warzone games",
 				paragraphs: [
 					"For Warzone, useful features usually mean player ESP with distance, loot filters, gulag awareness, radar for flanks, and soft aim you can tone down. “Unlock all” marketing and battle-royale leftovers are red flags that the page was cloned from another game.",
 					"Compare the stack on <a href=\"/features/\">Features</a>, <a href=\"/warzone-esp/\">ESP</a>, and <a href=\"/warzone-aimbot/\">Aimbot</a>. If radar matters to how you hold the gulag, confirm it exists before checkout.",
@@ -443,10 +443,10 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "warzone-cheats-2026-whats-new",
 		title: "Warzone Cheats 2026: What Changed This Year",
-		metaDescription: "What changed for warzone cheats in 2026 — wipe cadence, Ricochet maintenance habits, ESP focus, and how Warzone Cheats adapted for Warzone.",
+		metaDescription: "What changed for warzone cheats in 2026 — season cadence, Ricochet maintenance habits, ESP focus, and how Warzone Cheats adapted for Warzone.",
 		h1: "What Changed for Warzone Cheats in 2026",
 		intro: "2026 did not invent cheating in Warzone — it raised the bar for maintenance. Wipes, Ricochet pushes, and map updates punish stale builds. Here is what changed in how serious warzone cheats packages need to operate.",
-		keywords: ["warzone cheats 2026","eft cheats 2026","ricochet 2026","warzone season","warzone cheats updates"],
+		keywords: ["warzone cheats 2026","warzone cheats 2026","ricochet 2026","warzone season","warzone cheats updates"],
 		imageAlt: "2026 updates for Warzone Cheats on Warzone",
 		sections: [
 			{
@@ -457,7 +457,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				],
 			},
 			{
-				h2: "Feature focus shifted toward raid information",
+				h2: "Feature focus shifted toward match information",
 				paragraphs: [
 					"The winning feature set in 2026 is still ESP, radar, and tunable soft aim — because Warzone fights are about information and first peeks. Loud rage features matter less than readable overlays you can turn down near the gulag.",
 					"See the current stack on <a href=\"/features/\">Features</a> and the pillar at <a href=\"/warzone-cheats/\">warzone cheats</a>.",
@@ -485,7 +485,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "warzone-aimbot-settings-guide",
 		title: "Warzone Aimbot Settings: Smooth FOV Without Looking Robotic",
-		metaDescription: "How to tune warzone aimbot and soft aim settings — FOV, smoothness, bone priority, and per-weapon profiles that feel natural in Warzone raids.",
+		metaDescription: "How to tune warzone aimbot and soft aim settings — FOV, smoothness, bone priority, and per-weapon profiles that feel natural in Warzone matches.",
 		h1: "Warzone Aimbot Settings That Feel Natural",
 		intro: "A harsh aimbot gets you killed by reports and by your own bad habits. Soft, tunable aim assistance is what most Warzone players actually want. Here is how to think about FOV, smoothness, and weapon profiles.",
 		keywords: ["warzone aimbot settings","warzone soft aim","aimbot fov","warzone aim assist","warzone cheats"],
@@ -494,7 +494,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Start softer than you think you need",
 				paragraphs: [
-					"Begin with a smaller FOV and higher smoothness so the assist helps tracking instead of snapping. Play five raids on Verdansk or buildings and only then widen FOV. If friends watching a demo say it looks robotic, you went too far.",
+					"Begin with a smaller FOV and higher smoothness so the assist helps tracking instead of snapping. Play five matches on Verdansk or buildings and only then widen FOV. If friends watching a demo say it looks robotic, you went too far.",
 					"Full control docs live on <a href=\"/warzone-aimbot/\">Warzone Aimbot</a> and <a href=\"/warzone-soft-aim/\">soft aim</a>.",
 				],
 			},
@@ -502,7 +502,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Per-weapon profiles beat one global slider",
 				paragraphs: [
 					"ARs, SMGs, and bolt-actions want different assist. Save separate profiles so buildings sprays and long Rebirth peeks do not share the same magnet. Bone priority should favor what you can actually hit under stress — usually upper chest to head transitions, not miracles.",
-					"Hotkeys matter mid-raid. You need to disable assist when you are looting friendlies or holding a suspicious angle where obvious corrections would look wrong.",
+					"Hotkeys matter mid-match. You need to disable assist when you are looting friendlies or holding a suspicious angle where obvious corrections would look wrong.",
 				],
 			},
 			{
@@ -526,14 +526,14 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "warzone-esp-wallhack-explained",
 		title: "Warzone ESP and Wallhack Explained in Plain English",
-		metaDescription: "What warzone ESP and wallhack actually show in Warzone — players, loot, distance, the gulag — and how to keep overlays readable in raids.",
+		metaDescription: "What warzone ESP and wallhack actually show in Warzone — players, loot, distance, the gulag — and how to keep overlays readable in matches.",
 		h1: "Warzone ESP and Wallhack Explained Clearly",
 		intro: "“ESP” and “wallhack” get used interchangeably. In Warzone they both mean information through walls — but the useful details are distance, filters, and what you choose to hide so your screen stays readable.",
-		keywords: ["warzone esp","warzone wallhack","eft esp","loot esp warzone","warzone cheats"],
+		keywords: ["warzone esp","warzone wallhack","warzone esp","loot esp warzone","warzone cheats"],
 		imageAlt: "ESP wallhack overlay showing players and loot in Warzone",
 		sections: [
 			{
-				h2: "What ESP shows during a real raid",
+				h2: "What ESP shows during a real match",
 				paragraphs: [
 					"Player ESP outlines players through walls and terrain, often with distance. Loot ESP highlights containers or high-value items. Extract cues help you avoid camping surprises. That information gap is why people search for warzone esp in the first place.",
 					"Read the dedicated pages for <a href=\"/warzone-esp/\">ESP</a> and <a href=\"/warzone-wallhack/\">wallhack</a> if you want category-level detail.",
@@ -570,7 +570,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "What “undetected warzone cheats” really means under Ricochet — maintenance, patch days, risk, and how to read status before you queue Warzone.",
 		h1: "Undetected Warzone Cheats: What Ricochet Reality Looks Like",
 		intro: "“Undetected” is the most abused word in cheat marketing. Under Ricochet, it means a package is being maintained against current detections — not that bans are impossible. Here is the honest version for Warzone players.",
-		keywords: ["undetected warzone cheats","ricochet warzone","warzone ban risk","eft undetected","warzone status"],
+		keywords: ["undetected warzone cheats","ricochet warzone","warzone ban risk","warzone undetected","warzone status"],
 		imageAlt: "Ricochet maintenance status for undetected Warzone cheats",
 		sections: [
 			{
@@ -611,20 +611,20 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "How Warzone Cheats compares to typical budget Warzone cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.",
 		h1: "Warzone Cheats vs Typical Budget EFT Cheat Shops",
 		intro: "Budget Warzone stores often look identical: neon banners, “undetected” badges, and a low weekly price. Warzone Cheats costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.",
-		keywords: ["warzone cheats comparison","budget eft cheats","warzone cheats vs other shops","esp radar pricing","warzone cheats"],
+		keywords: ["warzone cheats comparison","budget warzone cheats","warzone cheats vs other shops","esp radar pricing","warzone cheats"],
 		imageAlt: "Comparing Warzone Cheats features against budget EFT cheat shops",
 		sections: [
 			{
 				h2: "What budget shops usually optimize for",
 				paragraphs: [
 					"Low entry price and fast checkout. That can be fine for a weekend experiment. The common gaps are thin loot ESP, no real radar, Discord-only status, and slow rebuild communication after Ricochet pushes.",
-					"Warzone Cheats focuses on a full raid stack — player ESP, loot filters, radar, soft aim profiles — with a public <a href=\"/updates/\">Updates</a> page. See <a href=\"/features/\">Features</a> for the list.",
+					"Warzone Cheats focuses on a full BR stack — player ESP, loot filters, radar, soft aim profiles — with a public <a href=\"/updates/\">Updates</a> page. See <a href=\"/features/\">Features</a> for the list.",
 				],
 			},
 			{
-				h2: "Price versus what you touch every raid",
+				h2: "Price versus what you touch every match",
 				paragraphs: [
-					"If you only want basic player boxes in casual raids, a cheaper shop might feel enough. If you hold the gulag, run loot routes, and hate dying to unseen flanks, radar and clean filters pay for themselves quickly.",
+					"If you only want basic player boxes in casual matches, a cheaper shop might feel enough. If you hold the gulag, run loot routes, and hate dying to unseen flanks, radar and clean filters pay for themselves quickly.",
 					"Our monthly and lifetime options are on <a href=\"/pricing/\">Pricing</a>. Read the <a href=\"/blog/warzone-cheats-buyers-guide/\">buyers guide</a> before you compare three storefronts at once.",
 				],
 			},
@@ -653,7 +653,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "A two-week test of another Warzone cheat before switching to Warzone Cheats — ESP feel, soft aim, patch downtime, and support differences.",
 		h1: "I Tested Another Warzone Cheat for Two Weeks Before Switching",
 		intro: "My Discord kept recommending a popular Warzone cheat brand. I gave it fourteen days on the same PC and playlists, then moved to Warzone Cheats. This is what actually differed — without the usual affiliate script.",
-		keywords: ["warzone cheats review","eft cheat comparison","warzone cheat downtime","soft aim test","warzone cheats"],
+		keywords: ["warzone cheats review","warzone cheat comparison","warzone cheat downtime","soft aim test","warzone cheats"],
 		imageAlt: "Two week hands-on comparison between Warzone cheat providers",
 		sections: [
 			{
@@ -664,7 +664,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				],
 			},
 			{
-				h2: "Soft aim and the mid-raid feel",
+				h2: "Soft aim and the mid-match feel",
 				paragraphs: [
 					"Conservative FOV soft aim helped SMG and AR tracking. Sniping needed manual profile swaps that slowed me down. When I pushed smoothness too low, corrections looked obvious in review clips. Tuning toward smoother tracking fixed kills and reduced the robotic look.",
 					"On Warzone Cheats I relied more on per-weapon profiles so buildings and long peeks did not share one magnet. Details are in the <a href=\"/warzone-aimbot/\">aimbot guide</a>.",
@@ -678,9 +678,9 @@ export const blogPosts: BlogPostDefinition[] = [
 				],
 			},
 			{
-				h2: "After switching — what improved for my raids",
+				h2: "After switching — what improved for my matches",
 				paragraphs: [
-					"Independent loot and player toggles cleaned late-raid screens. Radar helped gulag holds. Support replies with order ID were fast enough during setup week. Pricing math favored a single full stack over stacking weekly subs — see <a href=\"/pricing/\">Pricing</a>.",
+					"Independent loot and player toggles cleaned late-game screens. Radar helped gulag holds. Support replies with order ID were fast enough during setup week. Pricing math favored a single full stack over stacking weekly subs — see <a href=\"/pricing/\">Pricing</a>.",
 					"If you run your own test, measure patch downtime hours, not just day-one vibes. Then read <a href=\"/setup/\">Setup</a> before you buy anything.",
 				],
 			}
@@ -701,15 +701,15 @@ export const blogPosts: BlogPostDefinition[] = [
 		title: "Full-Stack Warzone Cheats vs Minimal ESP Tools",
 		metaDescription: "Full-stack Warzone Cheats versus minimal ESP-only Warzone tools — feature depth, radar, soft aim, pricing, and who should buy which style.",
 		h1: "Full-Stack Warzone Cheats vs Minimal ESP-Only Tools",
-		intro: "Some Warzone tools sell a slim ESP module and call it a day. Warzone Cheats ships the wider raid stack. Neither philosophy is automatically wrong — they fit different players. Here is a clear comparison.",
+		intro: "Some Warzone tools sell a slim ESP module and call it a day. Warzone Cheats ships the wider BR stack. Neither philosophy is automatically wrong — they fit different players. Here is a clear comparison.",
 		keywords: ["warzone esp only cheat","warzone cheats features","radar vs esp","warzone cheat pricing","warzone cheats"],
 		imageAlt: "Full stack Warzone Cheats compared with minimal ESP-only tools",
 		sections: [
 			{
-				h2: "Two philosophies: minimal surface vs full raid loop",
+				h2: "Two philosophies: minimal surface vs full BR loop",
 				paragraphs: [
 					"Minimal tools focus on player boxes and light assist. Fewer features can mean a simpler menu and a lower price. Full-stack tools add loot filters, radar, and soft aim profiles so one menu covers information and fights.",
-					"Warzone Cheats is intentionally full-stack. If you only need outlines in quiet raids, a slim ESP product may feel enough. If you rotate, loot, and hold the gulag, missing radar becomes obvious.",
+					"Warzone Cheats is intentionally full-stack. If you only need outlines in quiet matches, a slim ESP product may feel enough. If you rotate, loot, and hold the gulag, missing radar becomes obvious.",
 				],
 			},
 			{

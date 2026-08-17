@@ -28,7 +28,7 @@
     "seeFeatures": "Ver funciones",
     "title": "Trucos Warzone indetectables",
     "priceFrom": "desde",
-    "imageAlt": "{{brand}} — Warzone ESP and aimbot overlay",
+    "imageAlt": "{{brand}} banner — tactical soldier in combat gear",
     "chipEsp": "ESP / wallhack",
     "chipAim": "Soft aim",
     "chipRadar": "Radar 2D",
@@ -118,7 +118,7 @@
   },
   "home": {
     "aboutTitle": "Trucos indetectables de Warzone para Warzone",
-    "aboutP1": "Warzone Cheats es un paquete de trucos indetectables para Warzone en PC Windows. Una licencia incluye ESP wallhack, soft aim y radar 2D, con reconstrucciones Ricochet tras los parches del juego. Compara planes en la Tienda y revisa el Estado antes de entrar en raid.",
+    "aboutP1": "Warzone Cheats es un paquete de trucos indetectables para Warzone en PC Windows. Una licencia incluye ESP wallhack, soft aim y radar 2D, con reconstrucciones Ricochet tras los parches del juego. Compara planes en la Tienda y revisa el Estado antes de entrar en partida.",
     "aboutP2Before": "Empieza por el",
     "aboutPillar": "pilar de trucos de Warzone",
     "aboutEsp": "guía de ESP",
@@ -188,15 +188,15 @@
     "blog": "Blog"
   },
   "images": {
-    "hero": "Warzone Cheats hero — ESP and aimbot overlay in Warzone",
+    "hero": "Warzone Cheats banner — tactical soldier in combat gear",
     "espWallhack": "Wallhack outlines showing players through walls",
-    "aimbotCombat": "Soft aim assist overlay during an Warzone raid",
+    "aimbotCombat": "Soft aim assist overlay during a Warzone match",
     "squadFight": "Warzone Cheats combat overlay during a squad fight",
-    "playerEsp": "Player ESP boxes and distance readouts in a Warzone raid",
+    "playerEsp": "Player ESP boxes and distance readouts in a Warzone match",
     "headerArt": "Aimbot view and bone priority controls for Warzone",
     "cheatsPackage": "2D radar threat overlay for Warzone",
     "rebootFight": "Aimbot assist during a Warzone firefight",
-    "battleRoyale": "Warzone Cheats in-raid overview for Windows PC",
+    "battleRoyale": "Warzone Cheats in-match overview for Windows PC",
     "battleRoyaleIsland": "ESP markers for loot and the gulag in Warzone"
   },
   "blog": {
@@ -216,7 +216,7 @@
   "gallery": {
     "eyebrow": "Warzone Cheats",
     "title": "Galería Warzone",
-    "subtitle": "Visuales de Warzone con loadouts, peleas de escuadrón y combate raid — junto a herramientas ESP, radar y Aimbot.",
+    "subtitle": "Visuales de Warzone con loadouts, peleas de escuadrón y combate BR — junto a herramientas ESP, radar y Aimbot.",
     "lead": "Warzone Cheats está pensado para el loop de Warzone: leer el mapa, rastrear escuadrones enemigos, lootear y sobrevivir al gulag.",
     "highlightEspTitle": "ESP de jugadores y escuadrones",
     "highlightEspCopy": "Detecta jugadores enemigos y contornos de escuadrón en Verdansk y Resurgence para elegir peleas con mejor información.",
