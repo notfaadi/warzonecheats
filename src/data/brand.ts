@@ -89,7 +89,7 @@ export const brand = {
 	 * Aim ~50–60 chars titles, ~140–160 chars descriptions.
 	 */
 	seo: {
-		homeTitle: 'Warzone Cheats | Official Windows PC Site',
+		homeTitle: 'Warzone Cheats | ESP, Soft Aim & Radar',
 		homeDescription:
 			'Official Warzone Cheats site for Windows PC. ESP, loot ESP, smooth aim, and radar in one license. Check Status after Ricochet patches before you buy.',
 		featuresTitle: '{game} Features | {brand}',
