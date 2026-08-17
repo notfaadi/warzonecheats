@@ -1,5 +1,5 @@
 ---
-/** Full-bleed homepage banner (valohacks layout). */
+/** Homepage hero — Squad Hacks cinematic-band layout, Warzone art. */
 import HeroApp from './react/Hero';
 import type { LocaleCode } from '../data/i18n/locales';
 import { defaultLocale } from '../data/i18n/locales';
@@ -30,22 +30,24 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 
 <style is:global>
 	.hero {
-		--hero-pad-y: clamp(2rem, 4vw, 3rem);
-		--hero-stack: clamp(0.7rem, 1.6vw, 0.9rem);
-		/* Full-bleed banner — same pattern as valohacks (Valorant Hacks). */
+		--hero-pad-y: clamp(1.25rem, 2.4vw, 2.25rem);
+		--hero-stack: clamp(0.5rem, 1.1vw, 0.75rem);
+		/*
+		 * Native art is 1536×1024 (same as Squad Hacks). A 2.15:1 band
+		 * keeps the soldier in frame without stretching a 1536px master
+		 * across a 100svh laptop viewport (that is what looked soft).
+		 */
+		--hero-ratio: 2.15 / 1;
 		position: relative;
 		isolation: isolate;
 		display: grid;
 		align-items: center;
 		overflow: hidden;
 		background: #050506;
+		aspect-ratio: var(--hero-ratio);
 		width: 100%;
-		min-height: 100vh;
-		min-height: 100dvh;
-		min-height: 100svh;
-		height: 100vh;
-		height: 100dvh;
-		height: 100svh;
+		height: auto;
+		min-height: min(36rem, 68vh);
 		max-height: none;
 	}
 
@@ -279,18 +281,17 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 	}
 
 	/*
-	 * Mobile stays a full-bleed banner (not a short cropped strip).
-	 * Source art is right-weighted; 80% center puts the soldier in the
-	 * middle of a ~390px / 100svh crop. Bottom scrim keeps copy readable.
+	 * Phones: drop the ultra-wide ratio so copy is not clipped.
+	 * Height follows content; image still covers with object-fit.
 	 */
 	@media (max-width: 900px) {
 		.hero {
-			min-height: 100svh;
-			height: 100svh;
+			aspect-ratio: auto;
+			min-height: 0;
 			max-height: none;
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-end;
+			height: auto;
+			display: block;
+			overflow: hidden;
 		}
 
 		.hero__media img {

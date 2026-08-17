@@ -26,7 +26,7 @@ export const brand = {
 	logoRasterHeight: 512,
 	logoAlt: 'Warzone Cheats logo',
 	defaultOgImage: '/images/warzone-cheats-hero-1200w.webp',
-	heroImage: '/images/warzone-cheats-hero-1920w.webp',
+	heroImage: '/images/warzone-cheats-hero-1536w.webp',
 
 	plans: [
 		{ id: 'monthly', label: 'Monthly', price: 35, duration: 'P30D' },
