@@ -366,8 +366,8 @@ export function validateBrandPayload(body) {
 	const lifetimeLabel = soft(b.lifetimeLabel, 'Lifetime', 40);
 	const logo = assetPath(b.logo ?? '/images/tarkov-cheats-logo.webp');
 	const logoRaster = assetPath(b.logoRaster ?? '/images/tarkov-cheats-logo.png');
-	const defaultOgImage = assetPath(b.defaultOgImage ?? '/images/warzone-cheats-hero-1024w.webp');
-	const heroImage = assetPath(b.heroImage ?? '/images/warzone-cheats-hero-1024w.webp');
+	const defaultOgImage = assetPath(b.defaultOgImage ?? '/images/warzone-cheats-hero-1200w.webp');
+	const heroImage = assetPath(b.heroImage ?? '/images/warzone-cheats-hero-1920w.webp');
 	const logoAlt = soft(b.logoAlt, `${name || 'Brand'} logo`, 120);
 	const logoW = price(b.logoRasterWidth ?? 512) ?? 512;
 	const logoH = price(b.logoRasterHeight ?? 512) ?? 512;
