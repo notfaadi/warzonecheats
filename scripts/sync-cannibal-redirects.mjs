@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 /**
- * Syncs locale 301s for cannibal pageIds → pillar pageIds into public/_redirects
- * and functions/cannibal-redirects.json (used by Workers middleware).
- * Targets are read from src/data/seo-canonical.ts (single source of truth).
+ * Syncs locale 301s for cannibal pageIds → pillar pageIds into
+ * functions/cannibal-redirects.json (Worker + Pages middleware).
+ * Does not write public/_redirects — Cloudflare Workers allow only 100
+ * dynamic _redirects rules; locale pairs exceed that cap.
+ * Targets are read from src/data/seo-cannibal-map.ts (single source of truth).
  */
 import { readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
@@ -27,7 +29,7 @@ function readCannibalTargets() {
 	return targets;
 }
 
-function gulagSlugBlock(src, pageId) {
+function extractSlugBlock(src, pageId) {
 	const re = new RegExp(`\\t'${pageId}':\\s*\\{([\\s\\S]*?)\\n\\t\\},|\\t${pageId}:\\s*\\{([\\s\\S]*?)\\n\\t\\},`);
 	const m = src.match(re);
 	const block = m?.[1] ?? m?.[2];
@@ -42,15 +44,10 @@ function gulagSlugBlock(src, pageId) {
 const TARGETS = readCannibalTargets();
 const routing = readFileSync(ROUTING, 'utf8');
 const map = {};
-const lines = [
-	'',
-	'# Auto-generated cannibal locale redirects (scripts/sync-cannibal-redirects.mjs)',
-	'# Do not edit by hand — regenerated on sync:brand / prebuild',
-];
 
 for (const [fromId, toId] of Object.entries(TARGETS)) {
-	const fromSlugs = gulagSlugBlock(routing, fromId);
-	const toSlugs = gulagSlugBlock(routing, toId);
+	const fromSlugs = extractSlugBlock(routing, fromId);
+	const toSlugs = extractSlugBlock(routing, toId);
 	for (const [locale, fromSlug] of Object.entries(fromSlugs)) {
 		if (locale === 'en') continue;
 		const toSlug = toSlugs[locale];
@@ -59,8 +56,6 @@ for (const [fromId, toId] of Object.entries(TARGETS)) {
 		const toPath = `/${locale}/${toSlug}/`;
 		map[fromPath] = toPath;
 		map[`/${locale}/${fromSlug}`] = toPath;
-		lines.push(`${fromPath.slice(0, -1)} ${toPath} 301`);
-		lines.push(`${fromPath} ${toPath} 301`);
 	}
 }
 
@@ -70,11 +65,10 @@ const start = redirects.indexOf(markerStart);
 if (start >= 0) {
 	const lineStart = redirects.lastIndexOf('\n', start);
 	redirects = redirects.slice(0, lineStart >= 0 ? lineStart : start).trimEnd() + '\n';
+	writeFileSync(REDIRECTS, redirects);
 }
 
-redirects = `${redirects.trimEnd()}\n${lines.join('\n')}\n`;
-writeFileSync(REDIRECTS, redirects);
 writeFileSync(JSON_OUT, `${JSON.stringify(map, null, 2)}\n`);
 console.log(
-	`Synced ${Object.keys(map).length / 2} cannibal locale redirect pairs (${Object.keys(TARGETS).length} pageIds)`,
+	`Synced ${Object.keys(map).length / 2} cannibal locale redirect pairs to Worker JSON (${Object.keys(TARGETS).length} pageIds)`,
 );
