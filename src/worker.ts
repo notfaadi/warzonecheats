@@ -4,24 +4,44 @@
  *
  * Locale cannibal + Tarkov legacy 301s live here (Workers _redirects cap is 100).
  *
- * Requires DNS: CNAME `www` → `warzonecheats.co` (proxied) AND
- * Workers custom domain `www.warzonecheats.co` attached — otherwise
- * www is NXDOMAIN and Seobility fails the www/non-www check.
+ * www MUST be a Workers custom domain (see wrangler.toml [[routes]]).
+ * Apex-only binding never sees https://www.warzonecheats.co — Seobility then
+ * flags “uses both www and non-www” (or www 503 / NXDOMAIN).
  */
 import CANNIBAL_REDIRECTS from '../functions/cannibal-redirects.json';
+import { applySecurityHeaders } from './lib/security-headers.js';
 
 export interface Env {
 	ASSETS: Fetcher;
 }
 
 const CANONICAL_HOST = 'warzonecheats.co';
+const CANONICAL_ORIGIN = `https://${CANONICAL_HOST}`;
+const WWW_HOST = `www.${CANONICAL_HOST}`;
 
-/** Old apex still 301 → current canonical. */
-const LEGACY_HOSTS = new Set([
+/** Any of these hosts 301 → https://warzonecheats.co (path + query preserved). */
+const REDIRECT_HOSTS = new Set([
+	WWW_HOST,
 	'tarkovcheats.org',
 	'www.tarkovcheats.org',
 	'besttarkovcheats.com',
 	'www.besttarkovcheats.com',
+	'fortnitehack.net',
+	'www.fortnitehack.net',
+	'fortnitecheats.xyz',
+	'www.fortnitecheats.xyz',
+	'fortnitecheats.net',
+	'www.fortnitecheats.net',
+	'fortnitecheats.com',
+	'www.fortnitecheats.com',
+	'warzonehacks.net',
+	'www.warzonehacks.net',
+	'warzonescheats.net',
+	'www.warzonescheats.net',
+	'warzonescheats.com',
+	'www.warzonescheats.com',
+	'warzonescheats.xyz',
+	'www.warzonescheats.xyz',
 ]);
 
 /** Exact sources only — slash variants are added below. */
@@ -86,6 +106,35 @@ const PATH_REDIRECTS: Record<string, string> = (() => {
 	return out;
 })();
 
+function normalizeHost(raw: string): string {
+	return raw.split(':')[0].toLowerCase().replace(/\.$/, '');
+}
+
+function requestHosts(request: Request): string[] {
+	const url = new URL(request.url);
+	const header = request.headers.get('host') || '';
+	return [...new Set([normalizeHost(url.hostname), normalizeHost(header)].filter(Boolean))];
+}
+
+function clientProtocol(request: Request): string {
+	const visitor = request.headers.get('cf-visitor');
+	if (visitor) {
+		try {
+			const scheme = JSON.parse(visitor).scheme;
+			if (scheme) return String(scheme).toLowerCase();
+		} catch {
+			// ignore malformed cf-visitor
+		}
+	}
+
+	const forwarded = request.headers.get('x-forwarded-proto');
+	if (forwarded) {
+		return forwarded.split(',')[0].trim().toLowerCase();
+	}
+
+	return new URL(request.url).protocol.replace(':', '').toLowerCase();
+}
+
 function pathRedirect(pathname: string): string | null {
 	const exact = PATH_REDIRECTS[pathname] ?? (CANNIBAL_REDIRECTS as Record<string, string>)[pathname];
 	if (exact) return exact;
@@ -104,41 +153,43 @@ function pathRedirect(pathname: string): string | null {
 	return null;
 }
 
-function canonicalUrl(request: Request): URL | null {
-	const url = new URL(request.url);
-	const host = (request.headers.get('host') || url.hostname).split(':')[0].toLowerCase();
-	let changed = false;
+function needsHostRedirect(hosts: string[]): boolean {
+	return hosts.some((host) => host === WWW_HOST || REDIRECT_HOSTS.has(host));
+}
 
-	if (url.protocol === 'http:') {
-		url.protocol = 'https:';
-		changed = true;
-	}
+function needsHttpsRedirect(hosts: string[], proto: string): boolean {
+	if (proto !== 'http') return false;
+	return hosts.some((host) => host === CANONICAL_HOST || host === WWW_HOST || REDIRECT_HOSTS.has(host));
+}
 
-	if (
-		host === `www.${CANONICAL_HOST}` ||
-		url.hostname === `www.${CANONICAL_HOST}` ||
-		LEGACY_HOSTS.has(host)
-	) {
-		url.hostname = CANONICAL_HOST;
-		changed = true;
-	}
+/** Always https://warzonecheats.co + path + query (never leave www or http in Location). */
+function canonicalLocation(pathname: string, search: string): string {
+	const destPath = pathRedirect(pathname) ?? pathname;
+	return new URL(destPath + search, CANONICAL_ORIGIN).toString();
+}
 
-	return changed ? url : null;
+function redirect301(location: string): Response {
+	const headers = new Headers({ Location: location });
+	applySecurityHeaders(headers);
+	headers.set('Cache-Control', 'public, max-age=3600');
+	headers.set('CDN-Cache-Control', 'public, max-age=3600');
+	headers.set('Cloudflare-CDN-Cache-Control', 'public, max-age=3600');
+	return new Response(null, { status: 301, headers });
 }
 
 export default {
 	async fetch(request: Request, env: Env): Promise<Response> {
 		const url = new URL(request.url);
-		const target = canonicalUrl(request);
-		if (target) {
-			const destPath = pathRedirect(target.pathname);
-			if (destPath) target.pathname = destPath;
-			return Response.redirect(target.toString(), 301);
+		const hosts = requestHosts(request);
+		const proto = clientProtocol(request);
+
+		if (needsHostRedirect(hosts) || needsHttpsRedirect(hosts, proto)) {
+			return redirect301(canonicalLocation(url.pathname, url.search));
 		}
 
 		const destPath = pathRedirect(url.pathname);
 		if (destPath) {
-			return Response.redirect(new URL(destPath + url.search, url.origin).toString(), 301);
+			return redirect301(new URL(destPath + url.search, CANONICAL_ORIGIN).toString());
 		}
 
 		return env.ASSETS.fetch(request);

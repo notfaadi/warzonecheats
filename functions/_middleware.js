@@ -210,7 +210,8 @@ function trailingSlashRedirect(pathname) {
 
 export async function onRequest(context) {
 	const url = new URL(context.request.url);
-	const host = url.hostname.toLowerCase();
+	const hostHeader = (context.request.headers.get('host') || url.hostname).split(':')[0];
+	const host = hostHeader.toLowerCase().replace(/\.$/, '');
 	const proto = getClientProtocol(context.request);
 
 	const isLegacyHost = LEGACY_HOSTS.has(host);

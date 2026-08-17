@@ -44,7 +44,7 @@ function SiteFooterInner({ siteName, supportEmail, shareUrl, explore, help }: Pr
 					<ul className="site-footer__share">
 						{shareLinks.map((link) => (
 							<li key={link.href}>
-								<a href={link.href} rel="noopener noreferrer" target="_blank">
+								<a href={link.href} rel="nofollow noopener noreferrer" target="_blank">
 									{link.label}
 								</a>
 							</li>

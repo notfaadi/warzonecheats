@@ -41,7 +41,7 @@ const included = [
 				<ul class="plan__list">
 					{included.map((item) => <li>{item}</li>)}
 				</ul>
-				<a class="plan__cta plan__cta--solid" href={siteConfig.checkoutUrl} rel="noopener noreferrer">
+				<a class="plan__cta plan__cta--solid" href={siteConfig.checkoutUrl} rel="nofollow noopener noreferrer">
 					{t('product.buyMonthly')}
 				</a>
 			</article>
@@ -55,7 +55,7 @@ const included = [
 				<ul class="plan__list">
 					{included.map((item) => <li>{item}</li>)}
 				</ul>
-				<a class="plan__cta" href={siteConfig.checkoutUrl} rel="noopener noreferrer">
+				<a class="plan__cta" href={siteConfig.checkoutUrl} rel="nofollow noopener noreferrer">
 					{t('product.buyLifetime')}
 				</a>
 			</article>

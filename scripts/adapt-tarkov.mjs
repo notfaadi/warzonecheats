@@ -31,8 +31,8 @@ const RENAME_PAGE_DIRS = [
 /** Ordered replacements — specific patterns first. */
 const REPLACEMENTS = [
 	['https://warzonehacks.net', 'https://warzonecheats.co'],
-	['https://www.warzonehacks.net', 'https://www.warzonecheats.co'],
-	['www.warzonehacks.net', 'www.warzonecheats.co'],
+	['https://www.warzonehacks.net', 'https://warzonecheats.co'],
+	['www.warzonehacks.net', 'warzonecheats.co'],
 	['warzonehacks.net', 'warzonecheats.co'],
 	['support@warzonehacks.net', 'support@warzonecheats.co'],
 	['support@warzonescheats.net', 'support@warzonecheats.co'],

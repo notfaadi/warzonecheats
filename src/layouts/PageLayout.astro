@@ -165,7 +165,7 @@ const useHomeHero =
 									<a
 										class="btn-buy"
 										href={ctaPrimary.href}
-										rel={ctaPrimary.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+										rel={ctaPrimary.href.startsWith('http') ? 'nofollow noopener noreferrer' : undefined}
 									>
 										<span data-edit={ctaPrimary.edit || undefined}>{ctaPrimary.label}</span>
 									</a>
@@ -174,7 +174,7 @@ const useHomeHero =
 									<a
 										class="btn btn--ghost"
 										href={ctaSecondary.href}
-										rel={ctaSecondary.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+										rel={ctaSecondary.href.startsWith('http') ? 'nofollow noopener noreferrer' : undefined}
 									>
 										{ctaSecondary.label}
 									</a>

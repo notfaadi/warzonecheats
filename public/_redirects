@@ -1,3 +1,8 @@
+# Host canonicalization (static; keep this tiny — path 301s live in src/worker.ts)
+https://www.warzonecheats.co/* https://warzonecheats.co/:splat 301
+http://www.warzonecheats.co/* https://warzonecheats.co/:splat 301
+http://warzonecheats.co/* https://warzonecheats.co/:splat 301
+
 # Brand Studio - Workers assets reject status 404; use 200 -> 404 page
 /brand-studio /404.html 200
 /brand-studio/ /404.html 200

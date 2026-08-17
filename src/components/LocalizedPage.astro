@@ -164,12 +164,12 @@ const eyebrowByPage: Partial<Record<PageId, string>> = {
 			<section class="card-panel">
 				<h2>{t('product.plans')}</h2>
 				<div class="price-grid">
-					<a class="price-card" href={siteConfig.checkoutUrl} rel="noopener noreferrer">
+					<a class="price-card" href={siteConfig.checkoutUrl} rel="nofollow noopener noreferrer">
 						<span class="price-card__label">{t('product.monthly')}</span>
 						<span class="price-card__price">${monthly.price}</span>
 						<span class="price-card__meta">{t('product.days30')}</span>
 					</a>
-					<a class="price-card is-featured" href={siteConfig.checkoutUrl} rel="noopener noreferrer">
+					<a class="price-card is-featured" href={siteConfig.checkoutUrl} rel="nofollow noopener noreferrer">
 						<span class="price-card__label">{t('product.lifetime')}</span>
 						<span class="price-card__price">${lifetime.price}</span>
 						<span class="price-card__meta">{t('product.oneTime')}</span>
