@@ -153,7 +153,7 @@ export const brand = {
 	 */
 	sitemap: {
 		/** YYYY-MM-DD — Brand Studio can bump this on save to refresh crawl dates */
-		contentLastmod: '2026-08-16',
+		contentLastmod: '2026-08-17',
 		blogImageTitle: '{brand} blog',
 		blogImageCaption: 'Tips and updates for {game} cheats and hacks',
 		reviewsImageTitle: '{brand} reviews',
