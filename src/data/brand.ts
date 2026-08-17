@@ -13,7 +13,7 @@ export const brand = {
 	locale: 'en',
 	market: 'Worldwide',
 	supportEmail: 'support@warzonecheats.co',
-	checkoutUrl: 'https://zadeyo.com/go/QRH?to=%2Fproducts%2Fescape-from-tarkov',
+	checkoutUrl: 'https://zadeyo.com/go/QRH?to=%2Fproducts%2Fwarzone',
 
 	/** Game this template instance targets */
 	game: 'Warzone',
